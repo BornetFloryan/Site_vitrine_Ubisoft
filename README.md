@@ -12,5 +12,4 @@ Etudiant 3 : [Corentin Brendle](mailto:corentin.brendle@edu.univ-fcomte.fr?subje
 Etudiant 4 : [Quentin Chambon](mailto:quentin.chambon@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 5 : [Floryan Bornet](mailto:floryan.bornet@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
-# Présentation du projet
 
