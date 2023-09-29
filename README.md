@@ -2,10 +2,10 @@
 
 Groupe 4, 
 
-Khnagui Adam, 
-Immer Alex, 
-Brendle Corentin, 
-Chambon Quentin, 
-Bornet Floryan, 
+Adam Khnagui, 
+Alex Immer, 
+Corentin Brendle, 
+Quentin Chambon, 
+Floryan Bornet, 
 
-Email du référent (Khnagui Adam) : adam.khnagui@edu.univ-fcomte.fr
+Email du référent (Adam Khnagui) : adam.khnagui@edu.univ-fcomte.fr
