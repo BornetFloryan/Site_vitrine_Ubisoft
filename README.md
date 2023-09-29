@@ -8,4 +8,4 @@ Brendle Corentin,
 Chambon Quentin, 
 Bornet Floryan, 
 
-Email du référent : adam.khnagui@edu.univ-fcomte.fr
+Email du référent (Khnagui Adam) : adam.khnagui@edu.univ-fcomte.fr
