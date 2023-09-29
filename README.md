@@ -2,9 +2,9 @@
 
 Groupe 4
 
+Khnagui Adam
 Immer Alex
 Brendle Corentin
-Khnagui Adam
 Chambon Quentin
 Bornet Floryan
 
