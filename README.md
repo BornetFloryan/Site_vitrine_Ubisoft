@@ -12,4 +12,7 @@ Etudiant 3 : [Corentin Brendle](mailto:corentin.brendle@edu.univ-fcomte.fr?subje
 Etudiant 4 : [Quentin Chambon](mailto:quentin.chambon@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 5 : [Floryan Bornet](mailto:floryan.bornet@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
-
+## Présentation du projet
+  Le but de notre projet est de créer un site d'information sur l'entreprise française Ubisoft.
+A travers des recherches, nous détaillerons de manière pertinente chaques catégories. 
+Les catégories sont composées de l'histoire d'Ubisoft, de son économie, de son impact environnemental et des innovations importantes.
