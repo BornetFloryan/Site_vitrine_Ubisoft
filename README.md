@@ -2,7 +2,7 @@
 
 ## Site d'information sur l'entreprise Ubisoft    
 
-[SAE](https://wikiut.github.io/SAE/)
+[Site d'information sur l'entreprise Ubisoft ](https://wikiut.github.io/SAE/)
 
 ## Membres du groupe 4 :
 
