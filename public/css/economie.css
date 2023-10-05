@@ -1,8 +1,124 @@
-h1 {
-    font-size: 4vw;
-    font-weight: bold;
+:root {
+    --white: #ffffff;
+    --darkBlue: #091225;
+    --black: #000000;
+    --lightBlue: #005ef5;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    background-color: var(--darkBlue);
+    color: var(--white);
+  }
+  
+  nav svg {
+      fill: rgb(255, 255, 255);
+      width: 93px;
+      height: 30px;
+  }
+
+  *, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    margin-top: 20px;
+html {
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+
+}
+
+body{
+    background-image: url("https://www.polytechnique-insights.com/wp-content/uploads/2022/05/economie-morale-1-e1652187312991.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+}
+  
+h2{
+    text-align: left;
+    margin-left: 200px;
+
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+article{
+  float: right;
+    background: rgba(128,0,128, 0.4);
+    margin: 20px;
+    margin-right: 40em;
+border:1px solid #9FC6FF;
+padding:10px;
+/*arrondir les coins en haut à gauche et en bas à droite*/
+-moz-border-radius:10px 10px;
+-webkit-border-radius:10px 10px;
+border-radius:10px 10px;
+}
+
+nav a.btn {
+    color: var(--white);
+    font-family: 'Eurostile Extended', sans-serif;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    text-align: left;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+nav a.btn:hover{
+    color: var(--white);
+    font-size: 20px;
+    padding: 0px;
+    cursor: pointer;
+    outline-offset: 0px;
+  }
+  
+  /* Définition de l'animation */
+  @keyframes enlargeText {
+    from {
+      font-size: 14px; /* Taille de départ */
+    }
+    to {
+      font-size: 30px; /* Taille de fin */
+    }
+  }
+
+  .grid-container {
+    float: right;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
+  gap: 20px; /* Espacement entre les éléments de la grille */
+}
+
+.grid-item {
+  grid-column: span 2; /* Chaque élément occupe deux colonnes */
+  
+}
+
+.p2 {
+  text-align: right;
+  
+}
+
+.grid-item2 {
+  text-align: right;
+  float: right;
 }
