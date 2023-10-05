@@ -1,17 +1,121 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/reset.css">
-    <link rel="stylesheet" href="../public/css/innovation.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Innovation</title>
+  <link rel="stylesheet" href="style/innovation.css" type="text/css">
+  <link href="https://fonts.cdnfonts.com/css/eurostile-extended" rel="stylesheet">
 </head>
+
 <body>
+  <nav class="menu-nav">
+    <a class="logo__btn" data-ccm-m="buttonMaster" href="index.html" data-cy="same-window">
+      <div class="logo__btn__desktop">
+        <svg role="img" class="icon icon-ubisoft-logo-desktop" xmlns="images" version="1.1"
+          aria-labelledby="logo-desktop-title" viewBox="0 0 99.2 31.6">
+          <title id="logo-desktop-title">Ubisoft</title>
+          <path class="st0"
+            d="M30.4,15.8C30.1-0.4,8.6-6.4,0.3,8.7C0.7,9,1.2,9.4,1.5,9.6c-0.6,1.3-1.1,2.7-1.3,4C0.1,14.5,0,15.4,0,16.4 c0,8.4,6.8,15.2,15.2,15.2s15.2-6.8,15.2-15.2C30.4,16.2,30.4,16,30.4,15.8L30.4,15.8z M3.8,18.5c-0.2,1.6-0.1,2.2-0.1,2.4L3.3,21 c-0.1-0.3-0.5-1.2-0.6-2.5c-0.4-4.9,2.9-9.3,8-10.1c4.7-0.7,9.1,2.2,10.2,6.3l-0.4,0.1c-0.1-0.1-0.3-0.4-1-1.2 C13.9,7.9,5,10.5,3.8,18.5L3.8,18.5z M18.2,21.2c-0.8,1.1-2,1.8-3.4,1.8c-2.3,0-4.2-1.9-4.2-4.2c0-2.2,1.7-4,3.9-4.1l0,0 c1.3-0.1,2.6,0.7,3.2,1.8c0.6,1.3,0.4,2.8-0.6,3.9C17.5,20.7,17.9,21,18.2,21.2L18.2,21.2z M26.9,21.4c-2.2,5-6.7,7.6-11.5,7.5 c-9.3-0.5-12-11.1-5.8-15l0.3,0.3c-0.1,0.1-0.5,0.4-1,1.6c-0.7,1.4-0.9,2.7-0.8,3.6c0.5,7.5,10.9,9,14.5,1.6 C27.1,10.8,15,0.5,4.2,8.4L4,8.1C6.8,3.7,12.3,1.7,17.6,3C25.7,5.1,30.1,13.5,26.9,21.4z">
+          </path>
+          <path class="st0"
+            d="M45.2,9.8v7c0,2.8-1.7,4.9-4.8,4.9s-4.8-2.1-4.8-4.9v-7h2.5v6.8c0,1.7,0.8,2.7,2.3,2.7c1.5,0,2.3-1,2.3-2.7V9.8 C42.7,9.8,45.2,9.8,45.2,9.8z M54.7,18.2c0,2-1.6,3.5-4.2,3.5h-4.1V9.9h3.9c2.3,0,3.8,1.1,3.8,2.8c0,1.3-0.6,2.1-1.5,2.5 C53.8,15.7,54.7,16.6,54.7,18.2L54.7,18.2z M49,12.2v2.5h1.3c0.8,0,1.3-0.5,1.3-1.2s-0.5-1.2-1.3-1.2L49,12.2L49,12.2z M50.4,19.4 c1.1,0,1.7-0.5,1.7-1.5s-0.6-1.5-1.7-1.5H49v2.9L50.4,19.4L50.4,19.4z M55.7,9.9h2.5v11.7h-2.5V9.9z M64.3,14.7c2,0.7,3,1.6,3,3.4 c0,2.4-1.9,3.8-4.1,3.8c-2,0-3.6-0.9-4.2-2.6l2-1.5c0.4,1.1,1.3,1.7,2.3,1.7c0.8,0,1.4-0.5,1.4-1.2c0-0.7-0.5-1.1-2.1-1.7 c-1.8-0.7-3.2-1.6-3.2-3.5c0-1.9,1.6-3.3,3.8-3.3c1.8,0,3.2,0.7,3.8,2.1l-2,1.4c-0.4-0.9-1-1.4-1.9-1.4c-0.8,0-1.3,0.4-1.3,1 C61.9,13.6,62.6,14.1,64.3,14.7z M80,15.8c0,3.4-2.5,6-6,6c-3.6,0-6-2.6-6-5.6c0-2,0.8-3.5,1.9-4.4l-0.4-0.4 c0.9-0.9,2.5-1.6,4.4-1.6C77.5,9.7,80,12.4,80,15.8L80,15.8z M77.4,15.8c0-2.1-1.3-3.6-3.4-3.6c-1.2,0-2.1,0.5-2.6,1l0.4,0.4 c-0.6,0.5-1.2,1.2-1.2,2.5c0,1.8,1.3,3.3,3.4,3.3C76.1,19.4,77.4,17.9,77.4,15.8L77.4,15.8z M83.6,12.4v2.7h5V17h-5v4.6H81V9.9h8 v2.4H83.6L83.6,12.4z M99.2,12.4h-3.3v9.3h-2.5v-9.3H90V9.9h9.1V12.4z">
+          </path>
+        </svg>
+      </div>
+    </a>
+    <a class="btn" href="index.html">Accueil</a>
+    <a class="btn" href="histoire.html">Histoire</a>
+    <a class="btn" href="economie.html">Economie</a>
+    <a class="btn" href="environnement.html">Environnement</a>
+    <a class="btn active" href="innovation.html">Innovation</a>
+  </nav>
+  <section class="txt">
+    <h1>Innovation</h1>
+    <p>
+      Ubisoft, l'un des leaders mondiaux de l'industrie du jeu vidéo, est reconnu pour son engagement constant envers
+      l'innovation.
+      Depuis sa fondation en 1986, l'entreprise a constamment repoussé les limites de la créativité et de la technologie
+      pour offrir des expériences de jeu exceptionnelles à des millions de joueurs à travers le monde.
+      Voici un aperçu des innovations clés de l'entreprise Ubisoft au fil des ans :
+    </p>
+    <section>
+      <article>
+      </article>
+      <article>
+        <h2>La Révolution du Monde Ouvert :</h2>
+        <p>
+          Ubisoft a été un pionnier dans le développement de mondes ouverts vastes et immersifs.
+          Des franchises telles que "Assassin's Creed" et "Far Cry" ont repoussé les frontières de la conception de jeux
+          en proposant des environnements vastes, réalistes et interactifs, offrant aux joueurs une totale liberté
+          d'exploration.
+        </p>
+      </article>
+      <article>
+        <h2>La Technologie de Motion Capture :</h2>
+        <p>
+          Ubisoft a été à l'avant-garde de l'utilisation de la motion capture pour créer des animations plus réalistes
+          et des personnages plus expressifs. Cette technologie a permis de donner vie à des personnages emblématiques
+          tels qu'Ezio Auditore et Aiden Pearce.
+        </p>
+      </article>
+      <article>
+        <h2>Le Programme de Recherche en Intelligence Artificielle :</h2>
+        <p>
+          Ubisoft a investi massivement dans la recherche en intelligence artificielle (IA) pour améliorer l'expérience
+          de jeu. L'IA est utilisée pour créer des mondes plus dynamiques, des adversaires plus intelligents et des
+          récits plus interactifs.
+        </p>
+      </article>
+      <article>
+        <h2>Les Technologies de Réalité Virtuelle (VR) et Augmentée (AR) :</h2>
+        <p>
+          Ubisoft s'est aventuré dans le monde de la réalité virtuelle et augmentée avec des jeux comme "Star Trek:
+          Bridge Crew" et "Mario + Rabbids Kingdom Battle". Ces technologies offrent de nouvelles façons immersives de
+          jouer.
+          Le Service d'Abonnement UPLAY+ : Ubisoft a lancé UPLAY+, un service d'abonnement qui permet aux joueurs
+          d'accéder à une vaste bibliothèque de jeux Ubisoft pour un abonnement mensuel. Cela a révolutionné la façon
+          dont les joueurs accèdent à leurs jeux préférés.
+        </p>
+      </article>
+      <article>
+        <h2>La Création Collaborative :</h2>
+        <p>
+          Ubisoft a encouragé la création collaborative au sein de son réseau mondial de studios. Des équipes de
+          développement de différents pays travaillent ensemble pour créer des jeux d'envergure internationale,
+          incorporant une variété de perspectives culturelles.
+        </p>
+      </article>
+      <article>
+        <h2>Le Support Continu des Jeux en Service :</h2>
+        <p>
+          Ubisoft a adopté le modèle de "jeu en service", offrant un soutien continu à des titres populaires tels que
+          "Rainbow Six Siege" et "The Division 2". Cela se traduit par des mises à jour régulières, de nouveaux contenus
+          et une communauté active de joueurs.
+        </p>
+      </article>
+      <article>
+        <h2>L'Engagement envers la Durabilité :</h2>
+        <p>
+          Ubisoft a annoncé son engagement envers la durabilité en réduisant son empreinte carbone, en investissant dans
+          des pratiques de développement durable, et en sensibilisant la communauté des joueurs à l'importance de la
+          protection de l'environnement.
+        </p>
+      </article>
+      <article>
 
-    <h1>Page Innovation</h1>
-
-    <p>createur : Floryan</p>
-    
+      </article>
+    </section>
+    <p>
+      Ces innovations ne sont que quelques exemples de l'impact d'Ubisoft sur l'industrie du jeu vidéo. L'entreprise
+      continue d'explorer de nouvelles frontières technologiques et créatives pour offrir des expériences de jeu
+      toujours plus passionnantes, tout en restant un acteur clé de l'industrie du divertissement interactif.
+    </p>
+  </section>
+  <footer>
+    <p>Bornet Floryan</p>
+  </footer>
 </body>
+
 </html>
