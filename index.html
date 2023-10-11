@@ -2,103 +2,179 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="stylesheet" href="public/css/reset.css" />
-    <link rel="stylesheet" href="public/css/style.css" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <title>WikIUT, made in Belfort</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="public/css/reset.css" rel="stylesheet" />
+    <link href="public/css/style.css" rel="stylesheet" />
+    <link href="public/css/nav.css" rel="stylesheet" />
+    <title>Accueil</title>
   </head>
 
   <body>
-    <div class="container">
-      <div class="containerCarousel">
-        <div class="carousel">
-          <h1>Accueil</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
-            recusandae assumenda vel, nesciunt doloremque quasi, veritatis
-            impedit reprehenderit velit deleniti iusto illum repellat labore
-            dolorum quis non. Cupiditate voluptas dolor magnam voluptatum nihil
-            delectus quas iste unde? Doloremque facilis repellat minima eos est
-            deleniti earum. Debitis hic nobis eum culpa enim, magnam dicta
-            perferendis vero ipsam deleniti delectus accusamus cum ab temporibus
-            facilis porro deserunt, distinctio dolorem alias soluta! Dolores qui
-            harum fuga necessitatibus.
-          </p>
-        </div>
-        <div class="carousel hide">
-          <h1>Histoire</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
-            recusandae assumenda vel, nesciunt doloremque quasi, veritatis
-            impedit reprehenderit velit deleniti iusto illum repellat labore
-            dolorum quis non. Cupiditate voluptas dolor magnam voluptatum nihil
-            delectus quas iste unde? Doloremque facilis repellat minima eos est
-            deleniti earum. Debitis hic nobis eum culpa enim, magnam dicta
-            perferendis vero ipsam deleniti delectus accusamus cum ab temporibus
-            facilis porro deserunt, distinctio dolorem alias soluta! Dolores qui
-            harum fuga necessitatibus.
-          </p>
-          <a href="template/histoire.html" class="linkRedirect"><button>Histoire</button></a>
-        </div>
-        <div class="carousel hide">
-          <h1>Economie</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
-            recusandae assumenda vel, nesciunt doloremque quasi, veritatis
-            impedit reprehenderit velit deleniti iusto illum repellat labore
-            dolorum quis non. Cupiditate voluptas dolor magnam voluptatum nihil
-            delectus quas iste unde? Doloremque facilis repellat minima eos est
-            deleniti earum. Debitis hic nobis eum culpa enim, magnam dicta
-            perferendis vero ipsam deleniti delectus accusamus cum ab temporibus
-            facilis porro deserunt, distinctio dolorem alias soluta! Dolores qui
-            harum fuga necessitatibus.
-          </p>
-          <a href="template/economie.html" class="linkRedirect"><button>Economie</button></a>
-        </div>
-        <div class="carousel hide">
-          <h1>Environnement</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
-            recusandae assumenda vel, nesciunt doloremque quasi, veritatis
-            impedit reprehenderit velit deleniti iusto illum repellat labore
-            dolorum quis non. Cupiditate voluptas dolor magnam voluptatum nihil
-            delectus quas iste unde? Doloremque facilis repellat minima eos est
-            deleniti earum. Debitis hic nobis eum culpa enim, magnam dicta
-            perferendis vero ipsam deleniti delectus accusamus cum ab temporibus
-            facilis porro deserunt, distinctio dolorem alias soluta! Dolores qui
-            harum fuga necessitatibus.
-          </p>
-          <a href="template/environnement.html" class="linkRedirect"><button>Environnement</button></a>
-        </div>
-        <div class="carousel hide">
-          <h1>Innovation</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
-            recusandae assumenda vel, nesciunt doloremque quasi, veritatis
-            impedit reprehenderit velit deleniti iusto illum repellat labore
-            dolorum quis non. Cupiditate voluptas dolor magnam voluptatum nihil
-            delectus quas iste unde? Doloremque facilis repellat minima eos est
-            deleniti earum. Debitis hic nobis eum culpa enim, magnam dicta
-            perferendis vero ipsam deleniti delectus accusamus cum ab temporibus
-            facilis porro deserunt, distinctio dolorem alias soluta! Dolores qui
-            harum fuga necessitatibus.
-          </p>
-          <a href="template/innovation.html" class="linkRedirect"><button>Innovation</button></a>
-        </div>
-      </div>
+    <nav>
+      <a data-aos="fade-down" data-aos-delay="0" href="index.html">
+        <svg
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          viewBox="0 0 99.2 31.6"
+        >
+          <title id="logo-desktop-title">Ubisoft</title>
+          <path
+            class="st0"
+            d="M30.4,15.8C30.1-0.4,8.6-6.4,0.3,8.7C0.7,9,1.2,9.4,1.5,9.6c-0.6,1.3-1.1,2.7-1.3,4C0.1,14.5,0,15.4,0,16.4 c0,8.4,6.8,15.2,15.2,15.2s15.2-6.8,15.2-15.2C30.4,16.2,30.4,16,30.4,15.8L30.4,15.8z M3.8,18.5c-0.2,1.6-0.1,2.2-0.1,2.4L3.3,21 c-0.1-0.3-0.5-1.2-0.6-2.5c-0.4-4.9,2.9-9.3,8-10.1c4.7-0.7,9.1,2.2,10.2,6.3l-0.4,0.1c-0.1-0.1-0.3-0.4-1-1.2 C13.9,7.9,5,10.5,3.8,18.5L3.8,18.5z M18.2,21.2c-0.8,1.1-2,1.8-3.4,1.8c-2.3,0-4.2-1.9-4.2-4.2c0-2.2,1.7-4,3.9-4.1l0,0 c1.3-0.1,2.6,0.7,3.2,1.8c0.6,1.3,0.4,2.8-0.6,3.9C17.5,20.7,17.9,21,18.2,21.2L18.2,21.2z M26.9,21.4c-2.2,5-6.7,7.6-11.5,7.5 c-9.3-0.5-12-11.1-5.8-15l0.3,0.3c-0.1,0.1-0.5,0.4-1,1.6c-0.7,1.4-0.9,2.7-0.8,3.6c0.5,7.5,10.9,9,14.5,1.6 C27.1,10.8,15,0.5,4.2,8.4L4,8.1C6.8,3.7,12.3,1.7,17.6,3C25.7,5.1,30.1,13.5,26.9,21.4z"
+          ></path>
+          <path
+            class="st0"
+            d="M45.2,9.8v7c0,2.8-1.7,4.9-4.8,4.9s-4.8-2.1-4.8-4.9v-7h2.5v6.8c0,1.7,0.8,2.7,2.3,2.7c1.5,0,2.3-1,2.3-2.7V9.8 C42.7,9.8,45.2,9.8,45.2,9.8z M54.7,18.2c0,2-1.6,3.5-4.2,3.5h-4.1V9.9h3.9c2.3,0,3.8,1.1,3.8,2.8c0,1.3-0.6,2.1-1.5,2.5 C53.8,15.7,54.7,16.6,54.7,18.2L54.7,18.2z M49,12.2v2.5h1.3c0.8,0,1.3-0.5,1.3-1.2s-0.5-1.2-1.3-1.2L49,12.2L49,12.2z M50.4,19.4 c1.1,0,1.7-0.5,1.7-1.5s-0.6-1.5-1.7-1.5H49v2.9L50.4,19.4L50.4,19.4z M55.7,9.9h2.5v11.7h-2.5V9.9z M64.3,14.7c2,0.7,3,1.6,3,3.4 c0,2.4-1.9,3.8-4.1,3.8c-2,0-3.6-0.9-4.2-2.6l2-1.5c0.4,1.1,1.3,1.7,2.3,1.7c0.8,0,1.4-0.5,1.4-1.2c0-0.7-0.5-1.1-2.1-1.7 c-1.8-0.7-3.2-1.6-3.2-3.5c0-1.9,1.6-3.3,3.8-3.3c1.8,0,3.2,0.7,3.8,2.1l-2,1.4c-0.4-0.9-1-1.4-1.9-1.4c-0.8,0-1.3,0.4-1.3,1 C61.9,13.6,62.6,14.1,64.3,14.7z M80,15.8c0,3.4-2.5,6-6,6c-3.6,0-6-2.6-6-5.6c0-2,0.8-3.5,1.9-4.4l-0.4-0.4 c0.9-0.9,2.5-1.6,4.4-1.6C77.5,9.7,80,12.4,80,15.8L80,15.8z M77.4,15.8c0-2.1-1.3-3.6-3.4-3.6c-1.2,0-2.1,0.5-2.6,1l0.4,0.4 c-0.6,0.5-1.2,1.2-1.2,2.5c0,1.8,1.3,3.3,3.4,3.3C76.1,19.4,77.4,17.9,77.4,15.8L77.4,15.8z M83.6,12.4v2.7h5V17h-5v4.6H81V9.9h8 v2.4H83.6L83.6,12.4z M99.2,12.4h-3.3v9.3h-2.5v-9.3H90V9.9h9.1V12.4z"
+          ></path>
+        </svg>
+      </a>
+      <a data-aos="fade-down" data-aos-delay="100" class="btn">Accueil</a>
+      <a data-aos="fade-down" data-aos-delay="200" class="btn">Histoire</a>
+      <a data-aos="fade-down" data-aos-delay="300" class="btn">Economie</a>
+      <a data-aos="fade-down" data-aos-delay="400" class="btn">Environnement</a>
+      <a data-aos="fade-down" data-aos-delay="500" class="btn">Innovation</a>
+    </nav>
 
-      <div class="conainerDot">
-        <p class="dot"><span class="dotText">Accueil</span></p>
-        <p class="dot"><span class="dotText">Histoire</span></p>
-        <p class="dot"><span class="dotText">Economie</span></p>
-        <p class="dot"><span class="dotText">Environnement</span></p>
-        <p class="dot"><span class="dotText">Innovation</span></p>
+    <div class="hero-banner">
+      <p>Ubisoft</p>
+      <p>Le fun, c'est du sérieux !</p>
+    </div>
+
+    <div class="container">
+      <i class="fa-solid fa-arrow-right"></i>
+      <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+
+      <div class="carousel">
+        <h1>Histoire</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
+          recusandae assumenda vel, nesciunt doloremque quasi, veritatis impedit
+          reprehenderit velit deleniti iusto illum repellat labore dolorum quis
+          non. Cupiditate voluptas dolor magnam voluptatum nihil delectus quas
+          iste unde? Doloremque facilis repellat minima eos est deleniti earum.
+          Debitis hic nobis eum culpa enim, magnam dicta perferendis vero ipsam
+          deleniti delectus accusamus cum ab temporibus facilis porro deserunt,
+          distinctio dolorem alias soluta! Dolores qui harum fuga
+          necessitatibus.
+        </p>
+        <a class="linkRedirect" href="template/histoire.html">
+          <button>Histoire</button>
+        </a>
+      </div>
+      <div class="carousel hide">
+        <h1>Economie</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
+          recusandae assumenda vel, nesciunt doloremque quasi, veritatis impedit
+          reprehenderit velit deleniti iusto illum repellat labore dolorum quis
+          non. Cupiditate voluptas dolor magnam voluptatum nihil delectus quas
+          iste unde? Doloremque facilis repellat minima eos est deleniti earum.
+          Debitis hic nobis eum culpa enim, magnam dicta perferendis vero ipsam
+          deleniti delectus accusamus cum ab temporibus facilis porro deserunt,
+          distinctio dolorem alias soluta! Dolores qui harum fuga
+          necessitatibus.
+        </p>
+        <a class="linkRedirect" href="template/economie.html">
+          <button>Economie</button>
+        </a>
+      </div>
+      <div class="carousel hide">
+        <h1>Environnement</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
+          recusandae assumenda vel, nesciunt doloremque quasi, veritatis impedit
+          reprehenderit velit deleniti iusto illum repellat labore dolorum quis
+          non. Cupiditate voluptas dolor magnam voluptatum nihil delectus quas
+          iste unde? Doloremque facilis repellat minima eos est deleniti earum.
+          Debitis hic nobis eum culpa enim, magnam dicta perferendis vero ipsam
+          deleniti delectus accusamus cum ab temporibus facilis porro deserunt,
+          distinctio dolorem alias soluta! Dolores qui harum fuga
+          necessitatibus.
+        </p>
+        <a class="linkRedirect" href="template/environnement.html">
+          <button>Environnement</button>
+        </a>
+      </div>
+      <div class="carousel hide">
+        <h1>Innovation</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
+          recusandae assumenda vel, nesciunt doloremque quasi, veritatis impedit
+          reprehenderit velit deleniti iusto illum repellat labore dolorum quis
+          non. Cupiditate voluptas dolor magnam voluptatum nihil delectus quas
+          iste unde? Doloremque facilis repellat minima eos est deleniti earum.
+          Debitis hic nobis eum culpa enim, magnam dicta perferendis vero ipsam
+          deleniti delectus accusamus cum ab temporibus facilis porro deserunt,
+          distinctio dolorem alias soluta! Dolores qui harum fuga
+          necessitatibus.
+        </p>
+        <a class="linkRedirect" href="template/innovation.html">
+          <button>Innovation</button>
+        </a>
       </div>
     </div>
 
-    <script src="public/javaScript/main.js"></script>
+    <div class="infoEntrepriseContainer">
+      <h1>2022 en bref</h1>
+      <div class="contentInfo">
+        <div
+          class="infoEntreprse"
+          data-aos="fade-down"
+          data-aos-delay="300"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <p>2.129 Mrd €</p>
+          <p>chiffre d'affaire</p>
+        </div>
+        <div class="lineVertical"></div>
+        <div
+          class="infoEntreprse"
+          data-aos="fade-down"
+          data-aos-delay="200"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <p>3,72 %</p>
+          <p>Marge nette</p>
+        </div>
+        <div class="lineVertical"></div>
+        <div
+          class="infoEntreprse"
+          data-aos="fade-down"
+          data-aos-delay="100"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <p>79.1 M €</p>
+          <p>Resultat net</p>
+        </div>
+        <div class="lineVertical"></div>
+        <div
+          class="infoEntreprse"
+          data-aos="fade-down"
+          data-aos-delay="0"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <p>662 M €</p>
+          <p>Dette nette</p>
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
+
     <script src="public/javaScript/carousel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
