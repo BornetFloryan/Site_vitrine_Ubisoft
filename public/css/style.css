@@ -1,0 +1,147 @@
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgb(15, 0, 60) 100%);
+  color: white;
+}
+
+.hero-banner p {
+  font-size: 2.5vw;
+}
+
+.hero-banner p:first-child {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 5vw;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  padding: 10% 15%;
+  background-color: #f5deb3;
+} 
+
+.container i {
+  position: absolute;
+  top: 45%;
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 15px 0 0 15px;
+}
+
+.container i:nth-child(1) {
+  right: 0;
+}
+
+.container i:nth-child(2) {
+  left: 0;
+}
+
+.carousel {
+  position: absolute;
+  top: 20%;
+  width: 80%;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+  transition: 400ms;
+}
+
+.carousel.hide {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-200px);
+}
+
+.carousel h1 {
+  font-size: 4vw;
+  font-weight: bold;
+}
+
+.carousel p {
+  font-size: 20px;
+  padding: 0 35% 0 0;
+}
+
+.carousel button {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px 100px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.carousel button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -101%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(182, 182, 182, 0.3);
+  filter: blur(5px);
+  transition: 400ms;
+}
+
+.carousel button:hover::before {
+  left: 101%;
+}
+
+.infoEntrepriseContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.infoEntrepriseContainer h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 8px;
+  color: #ffba08;
+}
+
+.contentInfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.lineVertical {
+  width: 2px;
+  height: 100px;
+  background-color: rgba(150, 150, 150, 0.6);
+}
+
+.infoEntreprse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoEntreprse p:first-child {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.infoEntreprse p:last-child {
+  font-size: 18px;
+}
