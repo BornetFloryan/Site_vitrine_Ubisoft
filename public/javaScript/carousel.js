@@ -1,52 +1,47 @@
-let carousels = document.querySelectorAll(".carousel");
-let dot = document.querySelectorAll(".dot");
+console.log("créé par : IMMER Alex")
+
+const carousel = document.querySelectorAll(".carousel");
+const arrow = document.querySelectorAll(".fa-arrow-right");
 let index = 0;
 
-function changeCarousel() {
-  for (let i = 0; i < carousels.length; i++) {
-    carousels[i].style.opacity = i === index ? "1" : "0";
-    carousels[i].style.visibility = i === index ? "visible" : "hidden";
-    dot[i].classList.remove("selected");
-    if (i === index) {
-      dot[i].classList.add("selected");
+const changeCarousel = () => {
+  if (index <= -1) {
+    index = carousel.length - 1;
+  } else if (index >= carousel.length) {
+    index = 0;
+  }
+  for (let i = 0; i < carousel.length; i++) {
+    if (index === i) {
+      carousel[i].classList.remove("hide");
+    } else {
+      carousel[i].classList.add("hide");
     }
   }
-}
+};
 
-function resetTimer() {
+const resetInterval = () => {
   clearInterval(interval);
   interval = setInterval(() => {
-    index = (index + 1) % carousels.length;
+    index = (index + 1) % carousel.length;
     changeCarousel();
   }, 10000);
-}
+};
 
-dot.forEach((dot, i) => {
-  dot.addEventListener("click", () => {
-    index = i;
-    changeCarousel();
-    resetTimer();
-  });
+arrow[1].addEventListener("click", () => {
+  index--;
+  changeCarousel();
+  resetInterval();
+});
+
+arrow[0].addEventListener("click", () => {
+  index++;
+  changeCarousel();
+  resetInterval();
 });
 
 changeCarousel();
 let interval = setInterval(() => {
-  index = (index + 1) % carousels.length;
+  index = (index + 1) % carousel.length;
   changeCarousel();
 }, 10000);
 
-document.addEventListener("keyup", (e) => {
-  if (e.keyCode === 39) {
-    index = (index + 1) % carousels.length;
-    changeCarousel();
-    resetTimer();
-  } else if (e.keyCode === 37) {
-    if ((index - 1) % carousels.length < 0) {
-      index = carousels.length - 1;
-    } else {
-      index = (index - 1) % carousels.length;
-    }
-    changeCarousel();
-    resetTimer();
-  }
-});
