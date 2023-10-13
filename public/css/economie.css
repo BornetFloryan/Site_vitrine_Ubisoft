@@ -1,124 +1,238 @@
+/* HEX : #292523
+RGB : 41, 37, 35
+HSL  : 20, 7%, 14% */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
 :root {
-    --white: #ffffff;
-    --darkBlue: #091225;
-    --black: #000000;
-    --lightBlue: #005ef5;
-  }
+  --white: #ffffff;
+  --darkBlue: #091225;
+  --black: #000000;
+  --lightBlue: #005ef5;
+}
 
 nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 15px 0;
-    background-color: var(--darkBlue);
-    color: var(--white);
-  }
-  
-  nav svg {
-      fill: rgb(255, 255, 255);
-      width: 93px;
-      height: 30px;
-  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  background-color: var(--white );
 
-  *, ::before, ::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  
+}
+
+nav svg {
+    fill: rgb(0, 0, 0);
+    width: 93px;
+    height: 30px;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-family: 'roboto', sans-serif;
-    color: #fff;
+  font-family: 'Nunito', sans-serif;
+  color:  rgb(0, 0, 0);;
+
 
 }
 
 body{
-    background-image: url("https://www.polytechnique-insights.com/wp-content/uploads/2022/05/economie-morale-1-e1652187312991.jpg");
-    background-size: cover;
-    height: 100vh;
+  background-color:  #f4f5f8;;
+  background-size: cover;
+  height: 100vh;
+
 }
 
 .container{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform:  translate(-50%, -50%);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform:  translate(-50%, -50%);
 }
-  
-h2{
-    text-align: left;
-    margin-left: 200px;
 
+h2{
+  text-align: center;
 }
 
 
 section{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  width: 100%;
 }
-article{
-  float: right;
-    background: rgba(128,0,128, 0.4);
-    margin: 20px;
-    margin-right: 40em;
-border:1px solid #9FC6FF;
-padding:10px;
-/*arrondir les coins en haut à gauche et en bas à droite*/
--moz-border-radius:10px 10px;
--webkit-border-radius:10px 10px;
-border-radius:10px 10px;
-}
+article{    
 
+display: flex;
+float: right;
+background: rgb(255, 255, 255);
+margin-right: 20px;
+padding: 10px;
+-moz-border-radius: 10px 10px;
+-webkit-border-radius: 10px 10px;
+border-radius: 10px 10px;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: flex-end;
+margin-top: 200px;
+}
 nav a.btn {
-    color: var(--white);
-    font-family: 'Eurostile Extended', sans-serif;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    align-items: center;
-    text-align: left;
-    transition-property: all;
-    transition-duration: 0.2s;
+  color: var(--black);
+  font-family: 'Eurostile Extended', sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  text-align: left;
+  transition-property: all;
+  transition-duration: 0.2s;
 }
 nav a.btn:hover{
-    color: var(--white);
-    font-size: 20px;
-    padding: 0px;
-    cursor: pointer;
-    outline-offset: 0px;
-  }
-  
-  /* Définition de l'animation */
-  @keyframes enlargeText {
-    from {
-      font-size: 14px; /* Taille de départ */
-    }
-    to {
-      font-size: 30px; /* Taille de fin */
-    }
-  }
-
-  .grid-container {
-    float: right;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Deux colonnes de largeur égale */
-  gap: 20px; /* Espacement entre les éléments de la grille */
+  color: var(--black);
+  font-size: 20px;
+  padding: 0px;
+  cursor: pointer;
+  outline-offset: 0px;
 }
 
+/* Définition de l'animation */
+@keyframes enlargeText {
+  from {
+    font-size: 14px; /* Taille de départ */
+  }
+  to {
+    font-size: 30px; /* Taille de fin */
+  }
+}
+
+.p1 {
+width: 66%;
+margin-top: 91px;
+
+
+}
+
+img {
+display: flex;
+border-radius: 10px 10px;
+justify-content: space-between;
+
+
+}
+
+.p11 {
+display: flex;
+text-align: center;
+}
+
+
+.containerCanva {
+width: 600px;
+}
+
+.fade-up {
+display: flex;
+position: absolute;
+background: rgba(80, 130, 192, 1);
+margin: 20px;
+border: 1px solid var(--darkBlue);
+padding: 10px;
+-moz-border-radius: 10px 10px;
+-webkit-border-radius: 10px 10px;
+border-radius: 10px 10px;
+flex-direction: column;
+align-items: center;
+align-content: center;
+justify-content: flex-end;
+width: 60%;
+text-align: center;
+}
+
+
+
+
+.titre{
+display: flex;
+width: 100%;
+height: 390px;
+border-left: 60px;
+border-right: 65px;
+flex-direction: column;
+align-items: center;
+align-content: center;
+background: rgb(255, 255, 255);
+padding: 10px;
+-moz-border-radius: 10px 10px;
+-webkit-border-radius: 10px 10px;
+border-radius: 10px 10px;
+justify-content: flex-end;
+
+}
+  
+.fond{
+  background-color: #005ef5;
+  width: 100%;
+  height: 597px;
+  padding-right: 125px;
+  padding-left: 125px;
+  padding-top: 70px;
+  padding-block-end: 100px;
+}
 .grid-item {
-  grid-column: span 2; /* Chaque élément occupe deux colonnes */
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.p2 {
-  text-align: right;
-  
-}
-
+/* Styles pour la deuxième section */
 .grid-item2 {
-  text-align: right;
-  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+/* Styles pour l'élément .article2 dans la deuxième section */
+.article2 {
+  background: rgb(255, 255, 255);
+  margin-right: 20px;
+  padding: 10px;
+  -moz-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 200px;
+  margin-left: 125px;
+  margin-right: 125px;
+  width: 66%; /* Ajustez la largeur selon vos besoins */
+}
+
+/* Styles pour le paragraphe .p2 dans la deuxième section */
+
+
+/* Styles pour l'image à côté de l'élément .article2 */
+.image {
+  display: flex;
+  align-items: center;
+  margin-top: 91px;
+}
+
+/* Styles pour l'image à l'intérieur de .image */
+.image img {
+  
+  border-radius: 10px 10px;
+  width: 100%; /* Ajustez la largeur de l'image selon vos besoins */
+  height: auto;
+}
+
+.p2{
+  margin-top: 200px;
+  width: 66%;
+margin-top: 91px;
 }
