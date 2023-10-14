@@ -49,3 +49,6 @@ let interval = setInterval(() => {
   changeCarousel();
 }, 10000);
 
+document.addEventListener("DOMContentLoaded", () => {
+  changeCarousel();
+});
