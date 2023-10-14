@@ -1,5 +1,6 @@
 console.log("créé par : IMMER Alex")
 
+const container = document.querySelector(".container");
 const carousel = document.querySelectorAll(".carousel");
 const arrow = document.querySelectorAll(".fa-arrow-right");
 let index = 0;
@@ -13,6 +14,7 @@ const changeCarousel = () => {
   for (let i = 0; i < carousel.length; i++) {
     if (index === i) {
       carousel[i].classList.remove("hide");
+      container.style.height = `${carousel[i].clientHeight + 20}px`;
     } else {
       carousel[i].classList.add("hide");
     }
@@ -25,7 +27,9 @@ const resetInterval = () => {
     index = (index + 1) % carousel.length;
     changeCarousel();
   }, 10000);
+  changeCarousel(); 
 };
+
 
 arrow[1].addEventListener("click", () => {
   index--;
