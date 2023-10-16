@@ -8,6 +8,10 @@
     --lightBlue: #005ef5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     color: #292523;
