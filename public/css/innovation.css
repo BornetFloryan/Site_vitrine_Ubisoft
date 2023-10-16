@@ -69,6 +69,7 @@ nav.menu-nav a.btn_active {
     transition-property: all;
     transition-duration: 0.3s;
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 .parallax {
@@ -108,7 +109,7 @@ nav.menu-nav a.btn_active {
     font-family: 'Eurostile Extended', sans-serif;
     color: #cfd2dc;
     position: absolute;
-    top: 67vh;
+    top: 63vh;
     left: 50.6%;
     transform: translateX(-50%);
 }
@@ -116,7 +117,7 @@ nav.menu-nav a.btn_active {
 .chevron-container {
     display: flex;
     position: absolute;
-    top: 70vh;
+    top: 67vh;
     width: 80px;
     height: 70px;
     left: 49%;
@@ -163,7 +164,6 @@ nav.menu-nav a.btn_active {
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #cfd2dc;
     align-items: center;
     margin-left: 20vh;
     margin-right: 20vh;
@@ -172,7 +172,7 @@ nav.menu-nav a.btn_active {
 }
 
 .container h1 {
-    color: #292523;
+    color: #f3f5fa;
     font-family: 'Eurostile Extended', sans-serif;
     font-size: 5em;
     margin: 20px;
@@ -187,6 +187,7 @@ nav.menu-nav a.btn_active {
     border: solid;
     border-color: #b22420;
     height: inherit;
+    background-color: #cfd2dc;
 }
 
 .item img {
