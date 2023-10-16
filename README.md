@@ -16,3 +16,7 @@ Etudiant 5 : [Floryan Bornet](mailto:floryan.bornet@edu.univ-fcomte.fr?subject=S
   Le but de notre projet est de créer un site d'information sur l'entreprise française Ubisoft.
 A travers des recherches, nous détaillerons de manière pertinente chaque catégorie. 
 Les catégories sont composées de l'histoire d'Ubisoft, de son économie, de son impact environnemental et des innovations importantes.
+
+## Lien vers W3C verificator
+
+Lien index.html [ici ()]
