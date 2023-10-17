@@ -19,4 +19,5 @@ Les catégories sont composées de l'histoire d'Ubisoft, de son économie, de so
 
 ## Lien vers W3C verificator
 
-Lien vers index.html : [ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2F)
+[index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2F)
+[environnement.html](https://validator.w3.org/nu/#textarea)
