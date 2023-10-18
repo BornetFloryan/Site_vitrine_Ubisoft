@@ -195,6 +195,13 @@ nav.menu-nav a.btn_active {
 .item div h2 {
   font-weight: bold;
   font-size: 20px;
+  color: #292523;
+}
+
+.item p {
+    align-items: center;
+    font-family: 'Eurostile Extended', sans-serif;
+    color: #292523;
 }
 
 .item img {
@@ -203,5 +210,6 @@ nav.menu-nav a.btn_active {
 }
 
 footer p {
-  color: white;
+    font-family: 'Eurostile Extended', sans-serif;
+    color: #cfd2dc;
 }
