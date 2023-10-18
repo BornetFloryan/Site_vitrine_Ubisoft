@@ -48,7 +48,7 @@
 .item div {
   display: flex;
   flex-direction: column;
-  /* width: 60%; */
+  width: 60%; 
 padding: 5px 20px;
 }
 
