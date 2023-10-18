@@ -80,7 +80,7 @@ nav.menu-nav a.btn_active {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #cfd2dc;
+  color: #f3f5fa;
   font-family: "Eurostile Extended", sans-serif;
   font-size: 5em;
   margin: 5px;
@@ -159,6 +159,7 @@ nav.menu-nav a.btn_active {
   gap: 40px;
   margin: 0 10vw;
   border-radius: 5px;
+
 }
 
 .container h1 {
@@ -176,8 +177,10 @@ nav.menu-nav a.btn_active {
   padding: 10px;
   border-radius: 10px;
   border: 3px solid #9b1e1f;
-  background-color: #cfd2dc;
+  background-color: #f3f5fa;
   font-family: "Eurostile Extended", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 .item div {
