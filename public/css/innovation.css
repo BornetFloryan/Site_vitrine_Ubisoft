@@ -1,235 +1,201 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&display=swap%22");
 @import url("https://fonts.cdnfonts.com/css/eurostile-extended");
 
+:root {
+  --white: #ffffff;
+  --darkBlue: #091225;
+  --black: #000000;
+  --lightBlue: #005ef5;
+}
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin: 0px;
-    background-color: #f3f5fa;
+  color: #292523;
+  background-color: #292523;
 }
 
 nav.menu-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid #292523;
-    padding: 10px 0;
-    font-size: 20px;
-    background-color: #f3f5fa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #292523;
+  padding: 10px 0;
+  font-size: 20px;
+  background-color: #f3f5fa;
 }
 
 nav.menu-nav svg {
-    fill: #292523;
-    width: 93px;
-    height: 33px;
-    text-align: center;
-    margin-top: 5px;
+  fill: #292523;
+  width: 93px;
+  height: 33px;
+  text-align: center;
+  margin-top: 5px;
 }
 
 nav.menu-nav a.btn {
-    color: #292523;
-    font-family: 'Eurostile Extended', sans-serif;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    align-items: center;
-    text-align: left;
-    cursor: pointer;
-    transition-property: all;
-    transition-duration: 0.3s;
+  color: #292523;
+  font-family: "Eurostile Extended", sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
 }
 
 nav.menu-nav a.btn:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 nav.menu-nav a.btn_active {
-    color: #292523;
-    font-family: 'Eurostile Extended', sans-serif;
-    text-decoration: none;
-    display: inline-flex;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    align-items: center;
-    text-align: left;
-    cursor: pointer;
-    transition-property: all;
-    transition-duration: 0.3s;
-    font-size: 1.2em;
-    font-weight: bold;
+  color: #292523;
+  font-family: "Eurostile Extended", sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .parallax {
-    height: 100vh;
+  height: 100vh;
+  position: relative;
 }
 
 .parallax h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    color: #cfd2dc;
-    font-family: "Eurostile Extended", sans-serif;
-    font-size: 5em;
-    margin: 5px;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #cfd2dc;
+  font-family: "Eurostile Extended", sans-serif;
+  font-size: 5em;
+  margin: 5px;
 }
 
 #background-video {
-    height: 100vh;
-    width: calc(100vw - 17px);
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    object-fit: cover;
-}
-
-.parallax a {
-    display: flex;
-    text-decoration: none;
-    font-size: 1.5em;
-    font-family: 'Eurostile Extended', sans-serif;
-    color: #f3f5fa;
-    position: absolute;
-    top: 63vh;
-    left: 50.6%;
-    transform: translateX(-50%);
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.3;
 }
 
 .containerChev {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
 }
 
 .containerChev a {
-    font-size: 20px;
-    color: #cfd2dc;
+  font-size: 20px;
+  color: #cfd2dc;
 }
 
 .containerChev .chevron {
-    position: relative;
-    cursor: pointer;
-    animation: moveUpDown 1s ease-in-out infinite;
+  position: relative;
+  cursor: pointer;
+  animation: moveUpDown 1s ease-in-out infinite;
 }
 
-.containerChev .chevron::before,
-.containerChev .chevron::after {
-    content: "";
-    position: absolute;
-    top: 10px;
-    height: 50px;
-    width: 10px;
-    background-color: #9b1e1f;
+.containerChev .chevron::before, .containerChev .chevron::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  height: 50px;
+  width: 10px;
+  background-color: #9b1e1f;
 }
 
 .containerChev .chevron::before {
-    right: 95px;
-    transform: rotate(45deg);
+  right: 95px;
+  transform: rotate(45deg);
 }
 
 .containerChev .chevron::after {
-    left: 95px;
-    transform: rotate(-45deg);
+  left: 95px;
+  transform: rotate(-45deg);
+}
+
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin: 0 10vw;
-    border-radius: 5px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0 10vw;
+  border-radius: 5px;
 }
 
 .container h1 {
-    color: #f3f5fa;
-    font-family: "Eurostile Extended", sans-serif;
-    font-size: 5em;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    overflow: hidden;
+  color: #f3f5fa;
+  font-family: "Eurostile Extended", sans-serif;
+  font-size: 5em;
 }
 
 .item {
-    display: flex;
-    justify-content: row;
-    align-items: center;
-    padding: 10px;
-    border-radius: 10px;
-    border: 3px solid #9b1e1f;
-    background-color: #cfd2dc;
-    font-family: "Eurostile Extended", sans-serif;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid #9b1e1f;
+  background-color: #cfd2dc;
+  font-family: "Eurostile Extended", sans-serif;
 }
 
 .item div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    text-align: center;
-    padding: 0 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 0 5vw;
 }
 
 .item div h2 {
-    font-weight: bold;
-    font-size: 20px;
-  }
+  font-weight: bold;
+  font-size: 20px;
+}
 
 .item img {
-    margin-right: 10px;
-    width: 450px;
-}
-
-.item h2 {
-    align-items: center;
-    font-family: 'Eurostile Extended', sans-serif;
-    color: #292523;
-    margin-left: 8px;
-}
-
-.item p {
-    align-items: center;
-    font-family: 'Eurostile Extended', sans-serif;
-    color: #292523;
-}
-
-footer {
-    background-color: #9b1e1f;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
+  margin-right: 10px;
+  width: 450px;
 }
 
 footer p {
-    font-family: 'Eurostile Extended', sans-serif;
-    color: #cfd2dc;
-}
-
-@keyframes moveUpDown {
-
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(20px);
-    }
+  color: white;
 }
