@@ -1,5 +1,6 @@
-console.log("créé par : IMMER Alex")
+console.log("créé par : IMMER Alex");
 
+const btnNav = document.querySelectorAll(".btn");
 const container = document.querySelector(".container");
 const carousel = document.querySelectorAll(".carousel");
 const arrow = document.querySelectorAll(".fa-arrow-right");
@@ -27,9 +28,8 @@ const resetInterval = () => {
     index = (index + 1) % carousel.length;
     changeCarousel();
   }, 10000);
-  changeCarousel(); 
+  changeCarousel();
 };
-
 
 arrow[1].addEventListener("click", () => {
   index--;
@@ -51,4 +51,15 @@ let interval = setInterval(() => {
 
 document.addEventListener("DOMContentLoaded", () => {
   changeCarousel();
+});
+
+btnNav.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    let attribute = parseInt(btn.getAttribute("data-id-carousel"));
+    if (attribute !== null) {
+      index = attribute;
+      changeCarousel();
+      resetInterval();
+    }
+  });
 });

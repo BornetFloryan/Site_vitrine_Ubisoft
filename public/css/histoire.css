@@ -25,16 +25,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding: 15px 0;
-    background-color: var(--lightgrey);
-    color: var(--black);
+    background-color: var(--darkred);
+    color: var(--white);
 }
 nav svg {
-    fill: var(--black);
+    fill: rgb(255, 255, 255);
     width: 93px;
     height: 30px;
 }
 nav a.btn {
-    color: var(--black);
+    color: var(--white);
     font-family: 'Eurostile Extended', sans-serif;
     text-decoration: none;
     display: inline-flex;
@@ -72,7 +72,7 @@ nav a.btn:hover {
 }
 img {
     border-radius: 20px;
-    border: 2px solid var(--darkred);
+    border: 2px solid var(--black);
     height: 30vh;
 }
 
@@ -90,6 +90,7 @@ h2 {
 
 .Page {
     position: relative;
+  max-width: 1200px;
     margin: 0 auto;
     
   }
@@ -102,7 +103,7 @@ h2 {
     bottom: 0;
     left: 50%;
     margin-left: -3px;
-    background-color:var(--darkred);
+    background-color:var(--black);
   }
 .Page-container {
     padding: 10px 40px;
@@ -118,7 +119,7 @@ h2 {
     height: 25px;
     right: -17px;
     background-color: var(--lightgrey);
-    border: 4px solid var(--red);
+    border: 4px solid var(--black);
     top: 15px;
     border-radius: 50%;
   }
@@ -135,9 +136,9 @@ h2 {
     top: 22px;
     width: 0;
     right: 30px;
-    border: medium solid var(--darkred);
+    border: medium solid var(--white);
     border-width: 10px 0 10px 10px;
-    border-color: transparent var(--darkred);
+    border-color: transparent var(--black);
     z-index: 2;
   }
 .Page-right::before {
@@ -147,9 +148,9 @@ h2 {
     top: 22px;
     width: 0;
     left: 30px;
-    border: medium solid var(--darkred);
+    border: medium solid var(--white);
     border-width: 10px 10px 10px 0;
-    border-color:transparent var(--darkred);
+    border-color:transparent var(--black);
     z-index: 1;
   }
 .Page-right::after {
@@ -160,8 +161,9 @@ h2 {
   flex-direction: row;
   padding: 20px 30px;
   background-color: var(--lightgrey);
+  /* position: relative; */
   border-radius: 15px;
-  border: 3px var(--darkred) solid;
+  border: 3px var(--black) solid;
   }
 .Page-left::after{
   align-items: center; 
@@ -172,7 +174,7 @@ h2 {
   padding: 20px 30px;
   background-color: var(--lightgrey);
   border-radius: 15px;
-  border: 3px var(--darkred) solid;
+  border: 3px var(--black) solid;
 }
 
   @media screen and (max-width: 600px) {
