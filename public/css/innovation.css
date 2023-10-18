@@ -89,7 +89,7 @@ nav.menu-nav a.btn_active {
 
 #background-video {
   height: 100vh;
-  width: calc(100vw - 17px);
+  width: calc(100vw - 15px);
   position: absolute;
   top: 0;
   left: 0;
