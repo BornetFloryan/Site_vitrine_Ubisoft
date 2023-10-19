@@ -17,60 +17,6 @@ body {
   background-color: #292523;
 }
 
-nav.menu-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: 1px solid #292523;
-  padding: 10px 0;
-  font-size: 20px;
-  background-color: #f3f5fa;
-}
-
-nav.menu-nav svg {
-  fill: #292523;
-  width: 93px;
-  height: 33px;
-  text-align: center;
-  margin-top: 5px;
-}
-
-nav.menu-nav a.btn {
-  color: #292523;
-  font-family: "Eurostile Extended", sans-serif;
-  text-decoration: none;
-  display: inline-flex;
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
-  align-items: center;
-  text-align: left;
-  cursor: pointer;
-  transition-property: all;
-  transition-duration: 0.3s;
-}
-
-nav.menu-nav a.btn:hover {
-  transform: scale(1.2);
-}
-
-nav.menu-nav a.btn_active {
-  color: #292523;
-  font-family: "Eurostile Extended", sans-serif;
-  text-decoration: none;
-  display: inline-flex;
-  justify-content: center;
-  margin: 0px;
-  padding: 0px;
-  align-items: center;
-  text-align: left;
-  cursor: pointer;
-  transition-property: all;
-  transition-duration: 0.3s;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
 .parallax {
   height: 100vh;
   position: relative;
