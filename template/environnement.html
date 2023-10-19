@@ -10,30 +10,29 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Environnement</title>
 </head>
 
 <body>
-  <nav data-aos="fade-down" data-aos-delay="0" class="menu-nav">
-    <a data-aos="fade-down" data-aos-delay="50" class="logo_btn" href="../index.html">
-      <div class="logo__btn__desktop">
-        <svg role="img" class="icon icon-ubisoft-logo-desktop" aria-labelledby="logo-desktop-title"
-          viewBox="0 0 99.2 31.6">
-          <title id="logo-desktop-title">Ubisoft</title>
-          <path class="st0"
-            d="M30.4,15.8C30.1-0.4,8.6-6.4,0.3,8.7C0.7,9,1.2,9.4,1.5,9.6c-0.6,1.3-1.1,2.7-1.3,4C0.1,14.5,0,15.4,0,16.4 c0,8.4,6.8,15.2,15.2,15.2s15.2-6.8,15.2-15.2C30.4,16.2,30.4,16,30.4,15.8L30.4,15.8z M3.8,18.5c-0.2,1.6-0.1,2.2-0.1,2.4L3.3,21 c-0.1-0.3-0.5-1.2-0.6-2.5c-0.4-4.9,2.9-9.3,8-10.1c4.7-0.7,9.1,2.2,10.2,6.3l-0.4,0.1c-0.1-0.1-0.3-0.4-1-1.2 C13.9,7.9,5,10.5,3.8,18.5L3.8,18.5z M18.2,21.2c-0.8,1.1-2,1.8-3.4,1.8c-2.3,0-4.2-1.9-4.2-4.2c0-2.2,1.7-4,3.9-4.1l0,0 c1.3-0.1,2.6,0.7,3.2,1.8c0.6,1.3,0.4,2.8-0.6,3.9C17.5,20.7,17.9,21,18.2,21.2L18.2,21.2z M26.9,21.4c-2.2,5-6.7,7.6-11.5,7.5 c-9.3-0.5-12-11.1-5.8-15l0.3,0.3c-0.1,0.1-0.5,0.4-1,1.6c-0.7,1.4-0.9,2.7-0.8,3.6c0.5,7.5,10.9,9,14.5,1.6 C27.1,10.8,15,0.5,4.2,8.4L4,8.1C6.8,3.7,12.3,1.7,17.6,3C25.7,5.1,30.1,13.5,26.9,21.4z">
-          </path>
-          <path class="st0"
-            d="M45.2,9.8v7c0,2.8-1.7,4.9-4.8,4.9s-4.8-2.1-4.8-4.9v-7h2.5v6.8c0,1.7,0.8,2.7,2.3,2.7c1.5,0,2.3-1,2.3-2.7V9.8 C42.7,9.8,45.2,9.8,45.2,9.8z M54.7,18.2c0,2-1.6,3.5-4.2,3.5h-4.1V9.9h3.9c2.3,0,3.8,1.1,3.8,2.8c0,1.3-0.6,2.1-1.5,2.5 C53.8,15.7,54.7,16.6,54.7,18.2L54.7,18.2z M49,12.2v2.5h1.3c0.8,0,1.3-0.5,1.3-1.2s-0.5-1.2-1.3-1.2L49,12.2L49,12.2z M50.4,19.4 c1.1,0,1.7-0.5,1.7-1.5s-0.6-1.5-1.7-1.5H49v2.9L50.4,19.4L50.4,19.4z M55.7,9.9h2.5v11.7h-2.5V9.9z M64.3,14.7c2,0.7,3,1.6,3,3.4 c0,2.4-1.9,3.8-4.1,3.8c-2,0-3.6-0.9-4.2-2.6l2-1.5c0.4,1.1,1.3,1.7,2.3,1.7c0.8,0,1.4-0.5,1.4-1.2c0-0.7-0.5-1.1-2.1-1.7 c-1.8-0.7-3.2-1.6-3.2-3.5c0-1.9,1.6-3.3,3.8-3.3c1.8,0,3.2,0.7,3.8,2.1l-2,1.4c-0.4-0.9-1-1.4-1.9-1.4c-0.8,0-1.3,0.4-1.3,1 C61.9,13.6,62.6,14.1,64.3,14.7z M80,15.8c0,3.4-2.5,6-6,6c-3.6,0-6-2.6-6-5.6c0-2,0.8-3.5,1.9-4.4l-0.4-0.4 c0.9-0.9,2.5-1.6,4.4-1.6C77.5,9.7,80,12.4,80,15.8L80,15.8z M77.4,15.8c0-2.1-1.3-3.6-3.4-3.6c-1.2,0-2.1,0.5-2.6,1l0.4,0.4 c-0.6,0.5-1.2,1.2-1.2,2.5c0,1.8,1.3,3.3,3.4,3.3C76.1,19.4,77.4,17.9,77.4,15.8L77.4,15.8z M83.6,12.4v2.7h5V17h-5v4.6H81V9.9h8 v2.4H83.6L83.6,12.4z M99.2,12.4h-3.3v9.3h-2.5v-9.3H90V9.9h9.1V12.4z">
-          </path>
-        </svg>
-      </div>
+  
+  <nav data-aos="fade-down">
+    <a href="index.html">
+      <svg role="img" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 99.2 31.6">
+        <title id="logo-desktop-title">Ubisoft</title>
+        <path class="st0"
+          d="M30.4,15.8C30.1-0.4,8.6-6.4,0.3,8.7C0.7,9,1.2,9.4,1.5,9.6c-0.6,1.3-1.1,2.7-1.3,4C0.1,14.5,0,15.4,0,16.4 c0,8.4,6.8,15.2,15.2,15.2s15.2-6.8,15.2-15.2C30.4,16.2,30.4,16,30.4,15.8L30.4,15.8z M3.8,18.5c-0.2,1.6-0.1,2.2-0.1,2.4L3.3,21 c-0.1-0.3-0.5-1.2-0.6-2.5c-0.4-4.9,2.9-9.3,8-10.1c4.7-0.7,9.1,2.2,10.2,6.3l-0.4,0.1c-0.1-0.1-0.3-0.4-1-1.2 C13.9,7.9,5,10.5,3.8,18.5L3.8,18.5z M18.2,21.2c-0.8,1.1-2,1.8-3.4,1.8c-2.3,0-4.2-1.9-4.2-4.2c0-2.2,1.7-4,3.9-4.1l0,0 c1.3-0.1,2.6,0.7,3.2,1.8c0.6,1.3,0.4,2.8-0.6,3.9C17.5,20.7,17.9,21,18.2,21.2L18.2,21.2z M26.9,21.4c-2.2,5-6.7,7.6-11.5,7.5 c-9.3-0.5-12-11.1-5.8-15l0.3,0.3c-0.1,0.1-0.5,0.4-1,1.6c-0.7,1.4-0.9,2.7-0.8,3.6c0.5,7.5,10.9,9,14.5,1.6 C27.1,10.8,15,0.5,4.2,8.4L4,8.1C6.8,3.7,12.3,1.7,17.6,3C25.7,5.1,30.1,13.5,26.9,21.4z">
+        </path>
+        <path class="st0"
+          d="M45.2,9.8v7c0,2.8-1.7,4.9-4.8,4.9s-4.8-2.1-4.8-4.9v-7h2.5v6.8c0,1.7,0.8,2.7,2.3,2.7c1.5,0,2.3-1,2.3-2.7V9.8 C42.7,9.8,45.2,9.8,45.2,9.8z M54.7,18.2c0,2-1.6,3.5-4.2,3.5h-4.1V9.9h3.9c2.3,0,3.8,1.1,3.8,2.8c0,1.3-0.6,2.1-1.5,2.5 C53.8,15.7,54.7,16.6,54.7,18.2L54.7,18.2z M49,12.2v2.5h1.3c0.8,0,1.3-0.5,1.3-1.2s-0.5-1.2-1.3-1.2L49,12.2L49,12.2z M50.4,19.4 c1.1,0,1.7-0.5,1.7-1.5s-0.6-1.5-1.7-1.5H49v2.9L50.4,19.4L50.4,19.4z M55.7,9.9h2.5v11.7h-2.5V9.9z M64.3,14.7c2,0.7,3,1.6,3,3.4 c0,2.4-1.9,3.8-4.1,3.8c-2,0-3.6-0.9-4.2-2.6l2-1.5c0.4,1.1,1.3,1.7,2.3,1.7c0.8,0,1.4-0.5,1.4-1.2c0-0.7-0.5-1.1-2.1-1.7 c-1.8-0.7-3.2-1.6-3.2-3.5c0-1.9,1.6-3.3,3.8-3.3c1.8,0,3.2,0.7,3.8,2.1l-2,1.4c-0.4-0.9-1-1.4-1.9-1.4c-0.8,0-1.3,0.4-1.3,1 C61.9,13.6,62.6,14.1,64.3,14.7z M80,15.8c0,3.4-2.5,6-6,6c-3.6,0-6-2.6-6-5.6c0-2,0.8-3.5,1.9-4.4l-0.4-0.4 c0.9-0.9,2.5-1.6,4.4-1.6C77.5,9.7,80,12.4,80,15.8L80,15.8z M77.4,15.8c0-2.1-1.3-3.6-3.4-3.6c-1.2,0-2.1,0.5-2.6,1l0.4,0.4 c-0.6,0.5-1.2,1.2-1.2,2.5c0,1.8,1.3,3.3,3.4,3.3C76.1,19.4,77.4,17.9,77.4,15.8L77.4,15.8z M83.6,12.4v2.7h5V17h-5v4.6H81V9.9h8 v2.4H83.6L83.6,12.4z M99.2,12.4h-3.3v9.3h-2.5v-9.3H90V9.9h9.1V12.4z">
+        </path>
+      </svg>
     </a>
-    <a data-aos="fade-down" data-aos-delay="100" class="btn" href="../index.html">Accueil</a>
-    <a data-aos="fade-down" data-aos-delay="200" class="btn" href="histoire.html">Histoire</a>
-    <a data-aos="fade-down" data-aos-delay="300" class="btn" href="economie.html">Economie</a>
-    <a data-aos="fade-down" data-aos-delay="400" class="btn" href="environnement.html">Environnement</a>
-    <a data-aos="fade-down" data-aos-delay="500" class="btn" href="innovation.html">Innovation</a>
+    <a href="../index.html" class="btn">Accueil</a>
+    <a href="histoire.html" class="btn">Histoire</a>
+    <a href="economie.html" class="btn">Economie</a>
+    <a href="environnement.html" class="btn">Environnement</a>
+    <a href="innovation.html" class="btn">Innovations</a>
   </nav>
 
   <video id="background-video" autoplay loop muted>
@@ -46,80 +45,44 @@
 
   <div class="container">
 
-    <div class="item">
+    <div class="item" data-aos="fade-right">
       <img src="../public/image/ubisoft.jpg" alt="Image play green">
-
       <div>
-        <h2>
-          Play green, l'engagement d'Ubisoft pour la neutralité carbone
-        </h2>
+        <h2>Play green, l'engagement d'Ubisoft pour la neutralité carbone</h2>
         <p>
-          Lors du Sommet Action Climat qui s’est déroulé en septembre 2019, le Secrétaire général des Nations unies
-          António
-          Guterres a résumé la situation en ces mots :
-          « L’urgence climatique est une course que nous sommes en train de perdre, mais que nous pouvons gagner. Nous
-          sommes la cause de la crise climatique, mais nous faisons aussi partie de la solution. Nous avons les outils :
-          la
-          technologie est de notre côté. »
-          Au cours de ce sommet, Ubisoft s’est unie à d’autres grandes entreprises de l’industrie du jeu vidéo pour
-          participer à la fondation de l’alliance Playing for the Planet Alliance, une initiative mise en valeur par le
-          Programme des Nations unies pour l’environnement (UNEP).
-          En 2020, Ubisoft a renforcé son engagement à contribuer activement à l’atteinte de la carboneutralité* au plan
-          mondial au moyen d’un plan à long terme qui favorise le jeu écologique. Ce plan se concentre sur deux points :
-          réduire les émissions de l’entreprise et encourager les communautés ainsi que les différents intervenants à en
-          faire plus pour la planète.
-          Afin de favoriser un changement réel et durable, nous continuerons à faire les efforts nécessaires, tant en
-          temps
-          qu’en énergie, pour élaborer et tester de nouvelles idées, et mettre en place de solides bases pour nos
-          nouvelles
-          initiatives environnementales dans les années à venir. Un tel engagement envers l’atteinte de la
-          carboneutralité
-          ne se traduit pas par une simple action : nous nous sommes engagés dans une aventure à long terme.
-          * Vous pouvez consulter à ce propos le résumé directif qui présente un cadre de travail pour l’atteinte de la
-          carboneutralité collective, rédigé par Net Zero Initiative, ainsi que le rapport consultatif 2021 de l’Agence
-          française de la transition écologique
+          Lors du Sommet Action Climat tenu en septembre 2019, le secrtaire gnral de lONU, Antnio Guterres, a rsum la
+          situation comme suit La crise climatique est une course que nous perdons, mais nous pouvons gagner. Une partie
+          de la solution. Nous avons les outils la technologie est de notre ct. Ce sommet En 2020, Ubisoft sest associ
+          dautres grandes socits de jeux vido pour participer la cration de lAlliance Playing for the Planet, une
+          initiative promue par lAlliance Programme des Nations Unies pour lEnvironnement PNUE En 2020, Ubisoft a
+          confirm son engagement participer activement latteinte de la neutralit carbone dans le monde avec un plan long
+          terme favorisant le jeu cologique. Ce plan se concentre sur deux points rduire les missions des entreprises et
+          encourager les communauts et les diffrentes parties prenantes faire plus pour la plante.
         </p>
       </div>
     </div>
-    <div class="item">
-      <img src="../public/image/objectif.avif" alt="Image objectif ubisoft">
 
+    <div class="item" data-aos="fade-left">
+      <img src="../public/image/objectif.avif" alt="Image objectif ubisoft">
       <div>
         <h2>
           Les objectif d'ubisoft
         </h2>
         <p>
-          Réduction des émissions de carbone : Ubisoft s'engageait à réduire ses émissions de gaz à effet de serre et à
-          travailler vers une empreinte carbone plus faible. Cela inclut des initiatives visant à réduire les émissions
-          de
-          CO2 liées à leurs bureaux, à leurs voyages d'affaires et à leurs opérations de fabrication.
-          Conception de jeux respectueuse de l'environnement : Ubisoft a commencé à intégrer des éléments écologiques
-          dans
-          certains de ses jeux vidéo. Par exemple, dans "Watch Dogs: Legion", les joueurs pouvaient explorer un Londres
-          futuriste avec des problèmes environnementaux et sociaux, illustrant l'impact de nos choix sur le monde
-          virtuel
-          et
-          réel.
-          Utilisation de l'énergie propre : Comme de nombreuses grandes entreprises, Ubisoft a cherché à utiliser
-          davantage
-          d'énergie propre dans ses opérations, y compris l'utilisation de sources d'énergie renouvelable pour alimenter
-          ses
-          centres de données et ses bureaux.
-          Réduction des déchets : Ubisoft a également travaillé sur la réduction des déchets et la promotion du
-          recyclage
-          dans ses bureaux et lors de ses événements.
-          Il est important de noter que les efforts en matière d'écologie peuvent évoluer au fil du temps, et la
-          stratégie
-          d'Ubisoft en matière d'écologie peut avoir évolué depuis lors. Je vous encourage à consulter les informations
-          les
-          plus récentes sur le site web d'Ubisoft ou dans des sources d'actualités fiables pour obtenir les dernières
-          informations sur leurs initiatives écologiques.
+          Rduction des missions de carbone Ubisoft sengageait rduire ses missions de gaz effet de serre et travailler
+          vers une empreinte carbone plus faible. Cela inclut des initiatives visant rduire les missions de CO2 lies
+          leurs bureaux, leurs voyages daffaires et leurs oprations de fabrication. Conception de jeux respectueuse de
+          lenvironnement Ubisoft a commenc intgrer des lments cologiques dans certains de ses jeux vido. Par exemple,
+          dans Watch Dogs Legion, les joueurs pouvaient explorer un Londres futuriste avec des problmes environnementaux
+          et sociaux, illustrant limpact de nos choix sur le monde virtuel et rel. Utilisation de lnergie propre Comme
+          de nombreuses grandes entreprises, Ubisoft a cherch utiliser davantage dnergie propre dans ses oprations, y
+          compris lutilisation de sources dnergie renouvelable pour alimenter ses centres de donnes et ses bureaux.
         </p>
       </div>
     </div>
-    <div class="item">
-      <img src="../public/image/pfp.png" alt="Logo playing for the planet">
 
+    <div class="item" data-aos="fade-right">
+      <img src="../public/image/pfp.png" alt="Logo playing for the planet">
       <div>
         <h2>
           Playing for the planet
@@ -137,38 +100,23 @@
         </p>
       </div>
     </div>
-    <div class="item">
-      <img src="../public/image/Co2.webp" alt="image emprinte carbone">
 
+    <div class="item" data-aos="fade-left">
+      <img src="../public/image/Co2.webp" alt="image emprinte carbone">
       <div>
         <h2>
           Objectif ecologique ubisoft
         </h2>
         <p>
-          Voyages d'affaires
-          Nouvelle politique de voyage et développement de solutions de travail collaboratif à distance
-          Espaces de travail
-          Optimisation de la consommation d'énergie sur site, garantissant un télétravail écologiquement durable.
-          Data centers
-          Acquisition de serveurs reconvertis, utilisation d'une plus grande quantité de chaleur recyclée, réduction des
-          temps de rétention des données.
-          Énergie
-          Objectif : 100% d'électricité provenant de sources renouvelables
-          Ressources humaines
-          Information, formation et intégration des membres de l'équipe
-          Gestion des déchets
-          Objectif : zéro plastique à usage unique, réduction globale de tous les types de déchets, optimisation du
-          recyclage
-          Équipement informatique
-          Allongement des cycles de vie du matériel, réutilisation et recyclage systématiques du matériel, postes de
-          travail
-          plus économes en énergie
-          Achats
-          Une politique d'achat responsable contraignante pour nos fournisseurs
-          Production
-          Numérisation des jeux
-          Contenu des jeux
-          Utilisation de jeux pour encourager un engagement positif en faveur de la protection de l'environnement
+          Dans le domaine des voyages daffaires, une rvolution est en cours, mettant laccent sur la durabilit,
+          lefficacit nergtique et la collaboration distance. Lentreprise sengage minimiser son impact environnemental
+          travers diverses initiatives. Il on repens leur politique de voyage en privilgiant les runions virtuelles pour
+          rduire leurs empreinte carbone. Ses espaces de travail sont conus pour une consommation dnergie optimale. Dans
+          ses data centers, il utilise des serveurs reconvertis, recycle la chaleur, et rduit les temps de rtention des
+          donnes pour limiter son empreinte numrique. Lobjectif est de parvenir 100 dlectricit provenant de sources
+          renouvelables. En ce qui concerne les ressources humaines, ils investissent dans la formation et lintgration
+          de leur quipe, tout en adoptant une politique de zro plastique usage unique et en optimisant le recyclage des
+          dchets.
         </p>
       </div>
     </div>
@@ -178,7 +126,8 @@
     <div class="reseau">
       <h2>Réseau sociaux</h2>
       <div class="icon-reseau">
-        <a href="https://twitter.com/UbisoftFR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://twitter.com/UbisoftFR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+            class="fa-brands fa-twitter"></i></a>
         <a href="https://www.instagram.com/ubisoftfr/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
         <a href="https://www.youtube.com/@UbisoftFR/videos"><i class="fa-brands fa-youtube"></i></a>
       </div>
@@ -190,7 +139,13 @@
       <p>email : corentin.brendle@edu.univ-fcomte.fr </p>
     </div>
   </footer>
-  
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

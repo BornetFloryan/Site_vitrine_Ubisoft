@@ -37,10 +37,14 @@
 
 .item {
   display: flex;
+  flex-direction: row-reverse;
   background-color: #cfd2dc;
   border-radius: 10px;
   align-items: center;
-  height: inherit;
+}
+
+.item:nth-child(even) {
+  flex-direction: row;
 }
 
 .item div {
@@ -48,6 +52,12 @@
   flex-direction: column;
   width: 60%;
   padding: 5px 20px;
+}
+
+.item div h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .item img {

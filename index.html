@@ -5,20 +5,24 @@
   <meta charset="UTF-8" />
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <meta content="width=device-width,initial-scale=1.0" name="viewport" />
+
+  <link rel="stylesheet" href="public/css/reset.css">
+  <link rel="stylesheet" href="public/css/nav.css">
+  <link rel="stylesheet" href="public/css/footer.css">
+  <link rel="stylesheet" href="public/css/style.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link href="public/css/reset.css" rel="stylesheet" />
-  <link href="public/css/style.css" rel="stylesheet" />
-  <link href="public/css/nav.css" rel="stylesheet" />
   <link rel="icon" href="favicon.ico" />
+
   <title>Accueil</title>
 </head>
 
 <body>
-  <nav>
-    <a data-aos="fade-down" data-aos-delay="0" href="index.html">
+  <nav data-aos="fade-down">
+    <a href="index.html">
       <svg role="img" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 99.2 31.6">
         <title id="logo-desktop-title">Ubisoft</title>
         <path class="st0"
@@ -29,11 +33,11 @@
         </path>
       </svg>
     </a>
-    <a data-aos="fade-down" data-aos-delay="100" class="btn">Accueil</a>
-    <a data-aos="fade-down" data-aos-delay="200" class="btn" data-id-carousel="0">Histoire</a>
-    <a data-aos="fade-down" data-aos-delay="300" class="btn" data-id-carousel="1">Economie</a>
-    <a data-aos="fade-down" data-aos-delay="400" class="btn" data-id-carousel="2">Environnement</a>
-    <a data-aos="fade-down" data-aos-delay="500" class="btn" data-id-carousel="3">Innovation</a>
+    <a href="#" class="btn">Accueil</a>
+    <a href="template/histoire.html" class="btn">Histoire</a>
+    <a href="template/economie.html" class="btn">Economie</a>
+    <a href="template/environnement.html" class="btn">Environnement</a>
+    <a href="template/innovation.html" class="btn">Innovations</a>
   </nav>
 
   <div class="hero-banner">
@@ -48,15 +52,7 @@
     <div class="carousel">
       <h1>Histoire</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
-        recusandae assumenda vel, nesciunt doloremque quasi, veritatis impedit
-        reprehenderit velit deleniti iusto illum repellat labore dolorum quis
-        non. Cupiditate voluptas dolor magnam voluptatum nihil delectus quas
-        iste unde? Doloremque facilis repellat minima eos est deleniti earum.
-        Debitis hic nobis eum culpa enim, magnam dicta perferendis vero ipsam
-        deleniti delectus accusamus cum ab temporibus facilis porro deserunt,
-        distinctio dolorem alias soluta! Dolores qui harum fuga
-        necessitatibus.
+        L'histoire d'Ubisoft est un projet familiale entre les frères Guillemot, Leurs passion des jeux vidéos s'est transmisse de la création jusqu'à nous actuellement.
       </p>
       <a class="linkRedirect" href="template/histoire.html">
         <button>Histoire</button>
@@ -65,9 +61,9 @@
     <div class="carousel hide">
       <h1>Economie</h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum aliquid odio maxime inventore officiis est
-        exercitationem eos velit a, obcaecati dolorem corrupti ab at minima aspernatur, eveniet delectus expedita
-        deserunt?
+        L'économie d'Ubisoft repose sur une solide croissance des revenus et des bénéfices, avec une présence
+        internationale diversifiée, notamment grâce à des acquisitions stratégiques et à une augmentation de la part des
+        ventes numériques.
       </p>
       <a class="linkRedirect" href="template/economie.html">
         <button>Economie</button>
@@ -76,15 +72,12 @@
     <div class="carousel hide">
       <h1>Environnement</h1>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab quia,
-        recusandae assumenda vel, nesciunt doloremque quasi, veritatis impedit
-        reprehenderit velit deleniti iusto illum repellat labore dolorum quis
-        non. Cupiditate voluptas dolor magnam voluptatum nihil delectus quas
-        iste unde? Doloremque facilis repellat minima eos est deleniti earum.
-        Debitis hic nobis eum culpa enim, magnam dicta perferendis vero ipsam
-        deleniti delectus accusamus cum ab temporibus facilis porro deserunt,
-        distinctio dolorem alias soluta! Dolores qui harum fuga
-        necessitatibus.
+        Ubisoft, leader de l'industrie du jeu vidéo, intègre des principes écologiques dans ses opérations. La société
+        développe des jeux axés sur l'écologie pour sensibiliser le public, encourage des pratiques respectueuses de
+        l'environnement en interne, réduit sa consommation d'énergie et collabore avec des organisations de protection
+        de la nature. Elle publie régulièrement des rapports sur sa performance environnementale, contribuant ainsi à la
+        sensibilisation aux problèmes environnementaux. Ubisoft joue un rôle actif dans la protection de l'environnement
+        en utilisant sa portée et ses ressources pour promouvoir la durabilité.
       </p>
       <a class="linkRedirect" href="template/environnement.html">
         <button>Environnement</button>
@@ -93,21 +86,11 @@
     <div class="carousel hide">
       <h1>Innovation</h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, animi asperiores ipsa temporibus quos natus sed
-        facilis tenetur aut explicabo autem, necessitatibus quae aliquam! Aut, voluptatem. Recusandae, alias
-        exercitationem. Maiores mollitia nihil quaerat iure magnam ipsum impedit? Ad sequi laboriosam doloribus, vitae,
-        nesciunt error, porro vel fugiat dolores velit non eligendi cumque necessitatibus officiis libero voluptatum
-        debitis obcaecati adipisci veritatis quaerat. Possimus recusandae consectetur officiis! Laboriosam sint nihil
-        sapiente laudantium, consequuntur temporibus quibusdam, doloremque doloribus, sunt ad dolorum cumque odit
-        accusamus amet dolor. Cupiditate atque molestiae deleniti, velit repudiandae placeat quidem, quibusdam nam alias
-        quis provident veritatis at? Praesentium est veniam culpa dolorem maxime repellendus facere quas eligendi
-        debitis suscipit accusamus, corrupti exercitationem, officiis temporibus voluptatum sapiente officia quae
-        numquam ab recusandae cum, fugiat nulla quam magnam. Eos, totam. Aliquid, praesentium iure itaque, perspiciatis
-        debitis inventore optio natus sit iusto ipsa aperiam! Dolores nihil quibusdam sunt nam, nostrum cum nobis eius
-        natus obcaecati doloremque dolorum porro ratione, consequuntur perspiciatis iste. Neque consequatur nihil ab
-        doloremque laborum veritatis quod sit rerum! Numquam, ipsum? Corrupti at facere earum sunt iste mollitia quia
-        blanditiis sed nam expedita exercitationem facilis aliquid ducimus, molestiae vitae inventore. Aut molestias
-        eius ab necessitatibus ipsum enim similique reiciendis!
+        Ubisoft, spécialiste mondial des jeux en monde ouvert, a révolutionné l'industrie avec des titres comme
+        "Assassin's Creed" et "Far Cry". Ubisoft a utilisé la capture de mouvement et l'intelligence artificielle pour
+        améliorer l'expérience de jeu en la rendant réaliste. Elle a aussi innové avec la réalité virtuelle, le service
+        d'abonnement UPLAY+ et le modèle de "jeu en service". En encourageant la collaboration internationale, Ubisoft
+        crée des jeux diversifiés, tout en s'engageant dans le développement durable.
       </p>
       <a class="linkRedirect" href="template/innovation.html">
         <button>Innovation</button>
@@ -140,7 +123,23 @@
     </div>
   </div>
 
-  <footer></footer>
+  <footer>
+    <div class="reseau">
+      <h2>Réseau sociaux</h2>
+      <div class="icon-reseau">
+        <a href="https://twitter.com/UbisoftFR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+            class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.instagram.com/ubisoftfr/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@UbisoftFR/videos"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+    <div class="createurPage">
+      <h2>A propos de :</h2>
+      <p>Createur : Immer Alex </p>
+      <p>email : alex.immer@edu.univ-fcomte.fr </p>
+    </div>
+  </footer>
 
   <script src="public/javaScript/carousel.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

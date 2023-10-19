@@ -1,6 +1,5 @@
 console.log("créé par : IMMER Alex");
 
-const btnNav = document.querySelectorAll(".btn");
 const container = document.querySelector(".container");
 const carousel = document.querySelectorAll(".carousel");
 const arrow = document.querySelectorAll(".fa-arrow-right");
@@ -51,15 +50,4 @@ let interval = setInterval(() => {
 
 document.addEventListener("DOMContentLoaded", () => {
   changeCarousel();
-});
-
-btnNav.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    let attribute = parseInt(btn.getAttribute("data-id-carousel"));
-    if (attribute !== null) {
-      index = attribute;
-      changeCarousel();
-      resetInterval();
-    }
-  });
 });

@@ -97,7 +97,31 @@ body {
   border-radius: 20px;
 }
 
+.fond div h1 {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
 .containerCanva{
   height: 60% ;
   padding-right: 0% !;
+}
+
+
+@media (max-width: 750px) {
+  .container .content, .contentChart {
+    flex-direction: column;
+  }
+
+  .contentChart .containerCanva {
+    width: 100%;
+  }
+
+  .containerText {
+    width: 100%;
+  }
+
+  .content img {
+    width: 100%;
+  }
 }
