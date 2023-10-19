@@ -69,32 +69,39 @@
 .carousel p {
   font-size: 20px;
   padding: 0 35% 0 0;
+  margin-bottom: 20px;
 }
 
-.carousel button {
-  position: relative;
-  margin-top: 20px;
-  padding: 10px 100px;
+
+.carousel a {
   font-size: 20px;
-  border: none;
-  border-radius: 10px;
-  overflow: hidden;
-  cursor: pointer;
 }
 
-.carousel button::before {
+.carousel a {
+  position: relative;
+  display: block;
+  width: fit-content;
+  background-color: white;
+  color: black;
+  padding: 10px 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.carousel a::before {
   content: '';
   position: absolute;
   top: 0;
   left: -101%;
   width: 100%;
   height: 100%;
-  background-color: rgba(182, 182, 182, 0.3);
+  background-color: rgba(182, 182, 182, 0.5);
   filter: blur(5px);
   transition: 400ms;
 }
 
-.carousel button:hover::before {
+.carousel a:hover::before {
   left: 101%;
 }
 
