@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&display=swap%22");
-@import url("https://fonts.cdnfonts.com/css/eurostile-extended");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 :root {
   --white: #ffffff;
@@ -12,14 +12,60 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+nav.menu-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #292523;
+  padding: 10px 0;
+  font-size: 20px;
+  background-color: #f3f5fa;
+}
+
+nav.menu-nav svg {
+  fill: #292523;
+  width: 93px;
+  height: 33px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav.menu-nav a.btn {
   color: #292523;
-  background-color: #292523;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+}
+
+nav.menu-nav a.btn:hover {
+  transform: scale(1.2);
+}
+
+nav.menu-nav a.btn_active {
+  color: #292523;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .parallax {
   height: 100vh;
-  position: relative;
 }
 
 .parallax h1 {
@@ -27,21 +73,22 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #cfd2dc;
-  font-family: "Eurostile Extended", sans-serif;
+  color: #f3f5fa;
+  font-family: 'Nunito', sans-serif;
   font-size: 5em;
   margin: 5px;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 #background-video {
   height: 100vh;
-  width: 100vw;
-  position: fixed;
+  width: calc(100vw - 17px);
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   object-fit: cover;
-  opacity: 0.3;
 }
 
 .containerChev {
@@ -55,7 +102,7 @@ body {
 
 .containerChev a {
   font-size: 20px;
-  color: #cfd2dc;
+  color: #f3f5fa;
 }
 
 .containerChev .chevron {
@@ -64,7 +111,8 @@ body {
   animation: moveUpDown 1s ease-in-out infinite;
 }
 
-.containerChev .chevron::before, .containerChev .chevron::after {
+.containerChev .chevron::before,
+.containerChev .chevron::after {
   content: "";
   position: absolute;
   top: 10px;
@@ -85,6 +133,7 @@ body {
 
 
 @keyframes moveUpDown {
+
   0%,
   100% {
     transform: translateY(0);
@@ -106,9 +155,11 @@ body {
 }
 
 .container h1 {
-  color: #f3f5fa;
-  font-family: "Eurostile Extended", sans-serif;
+  color: #292523;
+  font-family: 'Nunito', sans-serif;, sans-serif;
   font-size: 5em;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 .item {
@@ -117,9 +168,10 @@ body {
   align-items: center;
   padding: 10px;
   border-radius: 10px;
-  border: 3px solid #9b1e1f;
-  background-color: #cfd2dc;
-  font-family: "Eurostile Extended", sans-serif;
+  background-color: #f3f5fa;
+  font-family: 'Nunito', sans-serif;, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 .item div {
