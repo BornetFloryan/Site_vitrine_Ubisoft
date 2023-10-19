@@ -13,8 +13,8 @@ html {
 }
 
 body {
-  color: #292523;
-  background-color: #292523;
+  color: #f3f5fa;
+  background-color: #f3f5fa;
 }
 
 nav.menu-nav {
@@ -73,7 +73,6 @@ nav.menu-nav a.btn_active {
 
 .parallax {
   height: 100vh;
-  position: relative;
 }
 
 .parallax h1 {
@@ -85,17 +84,18 @@ nav.menu-nav a.btn_active {
   font-family: "Eurostile Extended", sans-serif;
   font-size: 5em;
   margin: 5px;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 #background-video {
   height: 100vh;
-  width: 100vw;
-  position: fixed;
+  width: calc(100vw - 17px);
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   object-fit: cover;
-  opacity: 0.3;
 }
 
 .containerChev {
@@ -118,7 +118,8 @@ nav.menu-nav a.btn_active {
   animation: moveUpDown 1s ease-in-out infinite;
 }
 
-.containerChev .chevron::before, .containerChev .chevron::after {
+.containerChev .chevron::before,
+.containerChev .chevron::after {
   content: "";
   position: absolute;
   top: 10px;
@@ -139,6 +140,7 @@ nav.menu-nav a.btn_active {
 
 
 @keyframes moveUpDown {
+
   0%,
   100% {
     transform: translateY(0);
@@ -163,6 +165,8 @@ nav.menu-nav a.btn_active {
   color: #f3f5fa;
   font-family: "Eurostile Extended", sans-serif;
   font-size: 5em;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 .item {
