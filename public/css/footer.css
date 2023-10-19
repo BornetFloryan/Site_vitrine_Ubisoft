@@ -1,0 +1,49 @@
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+footer .reseau h2,
+footer .createurPage h2,
+.reseau .icon-reseau i {
+    font-size: 23px;
+}
+
+.reseau .icon-reseau a {
+    color: white;
+    cursor: pointer;
+}
+
+.reseau .icon-reseau a:hover {
+    animation: shake 400ms linear;
+}
+
+@keyframes shake {
+
+    0% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+footer .reseau {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .reseau .icon-reseau {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
