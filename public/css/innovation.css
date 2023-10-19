@@ -81,6 +81,16 @@ html {
   transform: rotate(-45deg);
 }
 
+.containerChev .chevron.active::before {
+  right: 101px;
+  transform: rotate(45deg);
+}
+
+.containerChev .chevron.active::after {
+  left: 101px;
+  transform: rotate(-45deg);
+}
+
 
 @keyframes moveUpDown {
 

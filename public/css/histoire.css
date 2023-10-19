@@ -51,6 +51,7 @@ body {
 }
 
 .item-content img {
+  min-width: 50%;
   width: 50%;
   aspect-ratio: 16/9;
   object-fit: contain;

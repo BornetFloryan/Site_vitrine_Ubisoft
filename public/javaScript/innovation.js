@@ -36,3 +36,13 @@ function smoothScroll(target) {
 
     requestAnimationFrame(animation);
 }
+
+
+const chevron = document.querySelector(".chevron")
+
+if (navigator.userAgent.includes("Firefox")) {
+    chevron.classList.add("active")
+}
+else {
+    chevron.classList.remove("active")
+}
