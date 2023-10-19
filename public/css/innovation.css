@@ -24,6 +24,7 @@ html {
   font-family: 'Nunito', sans-serif;
   font-size: 5em;
   margin: 5px;
+  font-weight: bold;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
 }
@@ -44,12 +45,14 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 80vh;
+  height: 75vh;
 }
 
 .containerChev a {
   font-size: 20px;
   color: #f3f5fa;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .containerChev .chevron {
@@ -107,6 +110,7 @@ html {
   font-size: 5em;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
+  font-weight: bold;
 }
 
 .item {
