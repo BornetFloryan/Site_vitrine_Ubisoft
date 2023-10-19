@@ -6,9 +6,9 @@
 
 ## Membres du groupe 4 :
 
-Etudiant 1 (référent) : [Adam Khnagui](mailto:adam.khnagui@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 2 : [Alex Immer](mailto:alex.immer@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
-Etudiant 3 : [Corentin Brendle](mailto:corentin.brendle@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 1 (référent) : [Adam Khnagui](mailto:adam.khnagui@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+Etudiant 2 : [Alex Immer](mailto:alex.immer@edu.univ-fcomte.fr?subject=SAE_1_05_06)
+Etudiant 3 : [Corentin Brendle](mailto:corentin.brendle@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 Etudiant 4 : [Quentin Chambon](mailto:quentin.chambon@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 5 : [Floryan Bornet](mailto:floryan.bornet@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
 
@@ -45,7 +45,7 @@ ou
 
 **Auteur : KHNAGUI Adam**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fhistoire.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fhistoire.html)
 
 <br>
 <img src="public/image/W3C/W3C_histoire.png" width="400px" alt="capture ecran sur w3c">
@@ -54,7 +54,7 @@ Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : CHAMBON Quentin**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Feconomie.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Feconomie.html)
 
 <br>
 <img src="public/image/W3C/W3C_economie.png" width="400px" alt="capture ecran sur w3c">
@@ -63,7 +63,7 @@ Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : BRENDLE Corentin**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html)
 
 <br>
 
@@ -73,7 +73,7 @@ Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : BORNET Floryan**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html)
 
 <br>
 
