@@ -77,7 +77,7 @@ Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 <br>
 
-<img src="public/image/W3C/W3C_innovation.png" width="400px" alt="capture ecran sur w3c">
+<img src="public/image/W3C/W3C_innovations.png" width="400px" alt="capture ecran sur w3c">
 
 
 
