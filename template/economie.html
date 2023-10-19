@@ -1,223 +1,176 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economie</title>
+    <link rel="stylesheet" href="../public/css/economie.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title></title>
-  <link rel="stylesheet" href="../public/css/economie.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-</head>
-
-<body>
-
-  <nav>
-    <a class="logo__btn" data-ccm-m="buttonMaster" href="index.html" data-cy="same-window">
-      <div class="logo__btn__desktop">
-        <svg role="img" class="icon icon-ubisoft-logo-desktop" xmlns="http://www.w3.org/2000/svg" version="1.1"
-          aria-labelledby="logo-desktop-title" viewBox="0 0 99.2 31.6">
-          <title id="logo-desktop-title">Ubisoft</title>
-          <path class="st0"
-            d="M30.4,15.8C30.1-0.4,8.6-6.4,0.3,8.7C0.7,9,1.2,9.4,1.5,9.6c-0.6,1.3-1.1,2.7-1.3,4C0.1,14.5,0,15.4,0,16.4 c0,8.4,6.8,15.2,15.2,15.2s15.2-6.8,15.2-15.2C30.4,16.2,30.4,16,30.4,15.8L30.4,15.8z M3.8,18.5c-0.2,1.6-0.1,2.2-0.1,2.4L3.3,21 c-0.1-0.3-0.5-1.2-0.6-2.5c-0.4-4.9,2.9-9.3,8-10.1c4.7-0.7,9.1,2.2,10.2,6.3l-0.4,0.1c-0.1-0.1-0.3-0.4-1-1.2 C13.9,7.9,5,10.5,3.8,18.5L3.8,18.5z M18.2,21.2c-0.8,1.1-2,1.8-3.4,1.8c-2.3,0-4.2-1.9-4.2-4.2c0-2.2,1.7-4,3.9-4.1l0,0 c1.3-0.1,2.6,0.7,3.2,1.8c0.6,1.3,0.4,2.8-0.6,3.9C17.5,20.7,17.9,21,18.2,21.2L18.2,21.2z M26.9,21.4c-2.2,5-6.7,7.6-11.5,7.5 c-9.3-0.5-12-11.1-5.8-15l0.3,0.3c-0.1,0.1-0.5,0.4-1,1.6c-0.7,1.4-0.9,2.7-0.8,3.6c0.5,7.5,10.9,9,14.5,1.6 C27.1,10.8,15,0.5,4.2,8.4L4,8.1C6.8,3.7,12.3,1.7,17.6,3C25.7,5.1,30.1,13.5,26.9,21.4z">
-          </path>
-          <path class="st0"
-            d="M45.2,9.8v7c0,2.8-1.7,4.9-4.8,4.9s-4.8-2.1-4.8-4.9v-7h2.5v6.8c0,1.7,0.8,2.7,2.3,2.7c1.5,0,2.3-1,2.3-2.7V9.8 C42.7,9.8,45.2,9.8,45.2,9.8z M54.7,18.2c0,2-1.6,3.5-4.2,3.5h-4.1V9.9h3.9c2.3,0,3.8,1.1,3.8,2.8c0,1.3-0.6,2.1-1.5,2.5 C53.8,15.7,54.7,16.6,54.7,18.2L54.7,18.2z M49,12.2v2.5h1.3c0.8,0,1.3-0.5,1.3-1.2s-0.5-1.2-1.3-1.2L49,12.2L49,12.2z M50.4,19.4 c1.1,0,1.7-0.5,1.7-1.5s-0.6-1.5-1.7-1.5H49v2.9L50.4,19.4L50.4,19.4z M55.7,9.9h2.5v11.7h-2.5V9.9z M64.3,14.7c2,0.7,3,1.6,3,3.4 c0,2.4-1.9,3.8-4.1,3.8c-2,0-3.6-0.9-4.2-2.6l2-1.5c0.4,1.1,1.3,1.7,2.3,1.7c0.8,0,1.4-0.5,1.4-1.2c0-0.7-0.5-1.1-2.1-1.7 c-1.8-0.7-3.2-1.6-3.2-3.5c0-1.9,1.6-3.3,3.8-3.3c1.8,0,3.2,0.7,3.8,2.1l-2,1.4c-0.4-0.9-1-1.4-1.9-1.4c-0.8,0-1.3,0.4-1.3,1 C61.9,13.6,62.6,14.1,64.3,14.7z M80,15.8c0,3.4-2.5,6-6,6c-3.6,0-6-2.6-6-5.6c0-2,0.8-3.5,1.9-4.4l-0.4-0.4 c0.9-0.9,2.5-1.6,4.4-1.6C77.5,9.7,80,12.4,80,15.8L80,15.8z M77.4,15.8c0-2.1-1.3-3.6-3.4-3.6c-1.2,0-2.1,0.5-2.6,1l0.4,0.4 c-0.6,0.5-1.2,1.2-1.2,2.5c0,1.8,1.3,3.3,3.4,3.3C76.1,19.4,77.4,17.9,77.4,15.8L77.4,15.8z M83.6,12.4v2.7h5V17h-5v4.6H81V9.9h8 v2.4H83.6L83.6,12.4z M99.2,12.4h-3.3v9.3h-2.5v-9.3H90V9.9h9.1V12.4z">
-          </path>
-        </svg>
-      </div>
-    </a>
-    <a class="btn" href="/index.html">Accueil</a>
-    <a class="btn" href="histoire.html">Histoire</a>
-    <a class="btn" href="economie.html">Economie</a>
-    <a class="btn" href="environnement.html">Environnement</a>
-    <a class="btn" href="innovation.html">Innovation</a>
-  </nav>
-
-  <div class="fond">
-    <div>
-      <h1>Ubisoft d'un point de vue économique</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati quaerat recusandae odio veritatis eveniet,
-        sed dolor possimus dolorem. Quod maxime distinctio fugit debitis repellendus itaque quis ullam ducimus et
-        aliquid
-        amet incidunt explicabo quasi iste laboriosam minima, error ea, necessitatibus saepe. Voluptatum earum at
-        expedita
-        iure maxime ab, doloribus tempora vero minima, dolorem nobis asperiores cum nihil corrupti! Magnam dolorum
-        inventore ullam quae illum officiis. Molestiae assumenda et officia architecto nulla. Corrupti quasi adipisci ut
-        alias, culpa perspiciatis a. Earum dignissimos laborum et suscipit, quo reiciendis officia recusandae odio neque
-        natus dolores delectus quibusdam inventore quod possimus totam id rerum corporis nisi maxime voluptatibus
-        reprehenderit facilis vitae minima! Veritatis, doloribus repellendus. Aliquid iure, autem nam corporis
-        recusandae
-        deserunt veritatis animi delectus voluptatem ipsa possimus culpa voluptate asperiores temporibus mollitia illo
-        laudantium earum quidem laborum. Dolorum earum facilis placeat molestias ullam eveniet debitis excepturi omnis
-        vero quidem voluptate, cumque laborum velit corrupti illum expedita deserunt cupiditate accusantium. Esse ut,
-        laboriosam eveniet deserunt quas quae amet dignissimos eius error impedit vero, distinctio architecto at
-        repellat.
-        Laudantium quos quod aperiam. Quos ea impedit obcaecati ratione possimus veniam amet quo! Consequuntur nostrum
-        voluptate odit ab, ullam ipsum cum aliquid provident eaque ex voluptates deserunt praesentium nemo blanditiis
-        accusamus, facere id voluptatum, error accusantium itaque asperiores! A architecto iusto porro consequuntur
-        soluta
-        cumque quibusdam! Quibusdam expedita rerum dicta dolorem minima itaque eum sequi nostrum aperiam! Totam odio
-        necessitatibus, odit nesciunt recusandae aperiam libero vel enim! Excepturi voluptatum ducimus nulla, voluptas
-        debitis illo repellat aperiam nemo ipsam qui eaque, vero corrupti deleniti necessitatibus provident assumenda
-        eligendi iure asperiores praesentium facere, vel aspernatur minus? Placeat, fugit. Tempora, eveniet esse
-        perspiciatis iure delectus enim, laudantium inventore quo porro ipsum, illum placeat dignissimos culpa cumque
-        commodi debitis dolore soluta excepturi cum iste unde quidem natus architecto sapiente? Repudiandae fugiat culpa
-        autem deserunt cumque perferendis impedit nobis eaque et dolorem explicabo quia fuga odit non rem optio,
-        aspernatur adipisci quam, accusantium aliquid soluta? Atque doloribus sit laboriosam eligendi assumenda ex,
-        asperiores sunt ab dignissimos, dicta, numquam vero consectetur eos quas sed vel similique culpa sint! Earum
-        quasi
-        debitis eveniet neque provident quia aspernatur libero quos illum illo ipsa ducimus enim sunt molestiae
-        distinctio
-        beatae eum, placeat nemo accusantium inventore esse ea? In perferendis, perspiciatis, vel voluptatum veritatis
-        id
-        debitis praesentium, cupiditate architecto porro nostrum odio? Id, dolorem! Natus similique dolore, vero
-        corporis
-        magni minus eligendi laudantium, autem pariatur atque accusantium!</p>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="content">
-      <div class="containerText">
-        <h2>1. Croissance et Diversification</h2>
+  <body>
+    <nav data-aos="fade-down" data-aos-delay="0" class="menu-nav">
+      <a
+        data-aos="fade-down"
+        data-aos-delay="50"
+        class="logo_btn"
+        href="../index.html"
+      >
+        <div class="logo__btn__desktop">
+          <svg
+            role="img"
+            class="icon icon-ubisoft-logo-desktop"
+            aria-labelledby="logo-desktop-title"
+            viewBox="0 0 99.2 31.6"
+          >
+            <title id="logo-desktop-title">Ubisoft</title>
+            <path
+              class="st0"
+              d="M30.4,15.8C30.1-0.4,8.6-6.4,0.3,8.7C0.7,9,1.2,9.4,1.5,9.6c-0.6,1.3-1.1,2.7-1.3,4C0.1,14.5,0,15.4,0,16.4 c0,8.4,6.8,15.2,15.2,15.2s15.2-6.8,15.2-15.2C30.4,16.2,30.4,16,30.4,15.8L30.4,15.8z M3.8,18.5c-0.2,1.6-0.1,2.2-0.1,2.4L3.3,21 c-0.1-0.3-0.5-1.2-0.6-2.5c-0.4-4.9,2.9-9.3,8-10.1c4.7-0.7,9.1,2.2,10.2,6.3l-0.4,0.1c-0.1-0.1-0.3-0.4-1-1.2 C13.9,7.9,5,10.5,3.8,18.5L3.8,18.5z M18.2,21.2c-0.8,1.1-2,1.8-3.4,1.8c-2.3,0-4.2-1.9-4.2-4.2c0-2.2,1.7-4,3.9-4.1l0,0 c1.3-0.1,2.6,0.7,3.2,1.8c0.6,1.3,0.4,2.8-0.6,3.9C17.5,20.7,17.9,21,18.2,21.2L18.2,21.2z M26.9,21.4c-2.2,5-6.7,7.6-11.5,7.5 c-9.3-0.5-12-11.1-5.8-15l0.3,0.3c-0.1,0.1-0.5,0.4-1,1.6c-0.7,1.4-0.9,2.7-0.8,3.6c0.5,7.5,10.9,9,14.5,1.6 C27.1,10.8,15,0.5,4.2,8.4L4,8.1C6.8,3.7,12.3,1.7,17.6,3C25.7,5.1,30.1,13.5,26.9,21.4z"
+            ></path>
+            <path
+              class="st0"
+              d="M45.2,9.8v7c0,2.8-1.7,4.9-4.8,4.9s-4.8-2.1-4.8-4.9v-7h2.5v6.8c0,1.7,0.8,2.7,2.3,2.7c1.5,0,2.3-1,2.3-2.7V9.8 C42.7,9.8,45.2,9.8,45.2,9.8z M54.7,18.2c0,2-1.6,3.5-4.2,3.5h-4.1V9.9h3.9c2.3,0,3.8,1.1,3.8,2.8c0,1.3-0.6,2.1-1.5,2.5 C53.8,15.7,54.7,16.6,54.7,18.2L54.7,18.2z M49,12.2v2.5h1.3c0.8,0,1.3-0.5,1.3-1.2s-0.5-1.2-1.3-1.2L49,12.2L49,12.2z M50.4,19.4 c1.1,0,1.7-0.5,1.7-1.5s-0.6-1.5-1.7-1.5H49v2.9L50.4,19.4L50.4,19.4z M55.7,9.9h2.5v11.7h-2.5V9.9z M64.3,14.7c2,0.7,3,1.6,3,3.4 c0,2.4-1.9,3.8-4.1,3.8c-2,0-3.6-0.9-4.2-2.6l2-1.5c0.4,1.1,1.3,1.7,2.3,1.7c0.8,0,1.4-0.5,1.4-1.2c0-0.7-0.5-1.1-2.1-1.7 c-1.8-0.7-3.2-1.6-3.2-3.5c0-1.9,1.6-3.3,3.8-3.3c1.8,0,3.2,0.7,3.8,2.1l-2,1.4c-0.4-0.9-1-1.4-1.9-1.4c-0.8,0-1.3,0.4-1.3,1 C61.9,13.6,62.6,14.1,64.3,14.7z M80,15.8c0,3.4-2.5,6-6,6c-3.6,0-6-2.6-6-5.6c0-2,0.8-3.5,1.9-4.4l-0.4-0.4 c0.9-0.9,2.5-1.6,4.4-1.6C77.5,9.7,80,12.4,80,15.8L80,15.8z M77.4,15.8c0-2.1-1.3-3.6-3.4-3.6c-1.2,0-2.1,0.5-2.6,1l0.4,0.4 c-0.6,0.5-1.2,1.2-1.2,2.5c0,1.8,1.3,3.3,3.4,3.3C76.1,19.4,77.4,17.9,77.4,15.8L77.4,15.8z M83.6,12.4v2.7h5V17h-5v4.6H81V9.9h8 v2.4H83.6L83.6,12.4z M99.2,12.4h-3.3v9.3h-2.5v-9.3H90V9.9h9.1V12.4z"
+            ></path>
+          </svg>
+        </div>
+      </a>
+      <a
+        data-aos="fade-down"
+        data-aos-delay="100"
+        class="btn"
+        href="../index.html"
+        >Accueil</a
+      >
+      <a
+        data-aos="fade-down"
+        data-aos-delay="200"
+        class="btn"
+        href="histoire.html"
+        >Histoire</a
+      >
+      <a
+        data-aos="fade-down"
+        data-aos-delay="300"
+        class="btn_active"
+        href="economie.html"
+        >Economie</a
+      >
+      <a
+        data-aos="fade-down"
+        data-aos-delay="400"
+        class="btn"
+        href="environnement.html"
+        >Environnement</a
+      >
+      <a
+        data-aos="fade-down"
+        data-aos-delay="500"
+        class="btn"
+        href="innovation.html"
+        >Innovation</a
+      >
+    </nav>
+    <div class="fond">
+      <div>
+        <h1>Ubisoft d'un point de vue économique</h1>
         <p>
-          Ubisoft a enregistré une croissance solide de ses revenus au fil des
-          ans, tirée par des franchises à succès telles que Assassin's Creed, Far Cry
-          et Just Dance. La société a également mis l'accent sur la diversification en étendant
-          son portefeuille de jeux à de nouveaux genres et en explorant
-          des technologies émergentes telles que la réalité virtuelle.
-          Cette diversification a contribué à la résilience d'Ubisoft face
-          aux fluctuations du marché et à sa capacité à attirer un public varié.
-        </p>
-      </div>
-      <img src="../public/image/jeuxubi.jpg">
-    </div>
-
-    <div class="contentChart">
-      <div class="containerCanva">
-        <canvas id="myChart"></canvas>
-      </div>
-      <div class="containerText">
-        <h2>Quelques chiffres de l'entreprise Ubisoft</h2>
-        <p>Voila une courbe représentant l'évolution exceptionnelle du chiffre d'affaire d'ubisoft en seulement 20 ans
+          PDG: Yves Guillemot
+          <br>
+          Nombre de salariés : 21000
+          <br>
+          Creation : 28/03/1986
+          <br>
         </p>
       </div>
     </div>
 
-    <div class="content">
-      <div class="containerText">
-        <h2>2. Investissement dans la Créativité</h2>
-        <p>
-          L'un des piliers d'Ubisoft est son engagement envers la créativité et
-          l'innovation. La société investit massivement dans le développement de
-          jeux de haute qualité, avec des équipes de création réparties dans le
-          monde entier. Elle mise également sur l'acquisition de studios
-          talentueux pour enrichir son catalogue. Ces investissements dans la
-          créativité sont essentiels pour maintenir la compétitivité d'Ubisoft
-          et pour satisfaire les attentes des joueurs en constante évolution.
-        </p>
+    <div class="container">
+      <div data-aos="fade-right" data-aos-duration="1000" class="content">
+        <div class="containerText">
+          <h2>1. Croissance et Diversification</h2>
+          <p>
+            Ubisoft a enregistré une croissance solide de ses revenus au fil des
+            ans, tirée par des franchises à succès telles que Assassin's Creed,
+            Far Cry et Just Dance. La société a également mis l'accent sur la
+            diversification en étendant son portefeuille de jeux à de nouveaux
+            genres et en explorant des technologies émergentes telles que la
+            réalité virtuelle. Cette diversification a contribué à la résilience
+            d'Ubisoft face aux fluctuations du marché et à sa capacité à attirer
+            un public varié.
+          </p>
+        </div>
+        <img src="../public/image/jeuxubi.jpg" alt="jeuxubisoft">
       </div>
-      <img src="../public/image/logo_paris.jpg">
+
+      <div data-aos="fade-left" data-aos-duration="1000" class="contentChart">
+        <div class="containerCanva">
+          <canvas id="myChart"></canvas>
+        </div>
+        <div class="containerText2">
+          <h2>Le Chiffre d'affaire d'Ubisoft depuis 1999</h2>
+          <p>
+            Voila une courbe représentant l'évolution exceptionnelle du chiffre
+            d'affaire d'ubisoft en seulement 20 ans
+          </p>
+        </div>
+      </div>
+
+      <div data-aos="fade-right" data-aos-duration="1000" class="content">
+        <div class="containerText">
+          <h2>2. Investissement dans la Créativité</h2>
+          <p>
+            L'un des piliers d'Ubisoft est son engagement envers la créativité
+            et l'innovation. La société investit massivement dans le
+            développement de jeux de haute qualité, avec des équipes de création
+            réparties dans le monde entier. Elle mise également sur
+            l'acquisition de studios talentueux pour enrichir son catalogue. Ces
+            investissements dans la créativité sont essentiels pour maintenir la
+            compétitivité d'Ubisoft et pour satisfaire les attentes des joueurs
+            en constante évolution.
+          </p>
+        </div>
+        <img src="../public/image/logo_paris.jpg" alt="paris">
+      </div>
+
+      <div data-aos="fade-left" data-aos-duration="1000" class="contentChart">
+        <div class="containerCanva">
+          <canvas id="myChart2"></canvas>
+        </div>
+        <div class="containerText2">
+          <h2>La repartition du C.A d'Ubisoft par plateforme en 2022 :</h2>
+          <p>
+            En effet comme nous le voyons sur le graphique, la console est la
+            principale source de revenus d'Ubisoft comptabilisant 60% du Chiffre
+            d'affaire de ces derniers en 2022
+          </p>
+        </div>
+      </div>
+
+      <div data-aos="fade-right" data-aos-duration="1000" class="content">
+        <div class="containerText">
+          <h2>3. Défis et Opportunités</h2>
+          <p>
+            Bien que Ubisoft ait connu un succès considérable, l'industrie du
+            jeu vidéo est en constante évolution et confrontée à divers défis.
+            Les controverses liées à la culture d'entreprise et à la gestion ont
+            fait surface ces dernières années, obligeant Ubisoft à revoir ses
+            pratiques internes. De plus, la concurrence féroce et l'évolution
+            des modèles économiques, tels que les services d'abonnement,
+            nécessitent une adaptation continue. Cependant, Ubisoft a également
+            des opportunités, notamment l'expansion sur de nouveaux marchés, la
+            création de jeux basés sur des propriétés intellectuelles originales
+            et l'exploration de la réalité augmentée.
+          </p>
+        </div>
+        <img src="../public/image/réalité.jpg" alt="réalitéAugmentée">
+      </div>
     </div>
-
-    <div class="contentChart">
-      <div class="containerCanva ">
-        <canvas id="myChart2"></canvas>
-      </div>
-      <div class="containerText">
-        <h2>La repartition du C.A d'Ubisoft par plateforme en 2022 :</h2>
-        <p>En effet comme nous le voyons sur le graphique,
-          la console est la principale source de revenus d'Ubisoft
-          comptabilisant 60% du Chiffre d'affaire de ces derniers en 2022</p>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="containerText">
-        <h2>3. Défis et Opportunités</h2>
-        <p>
-          Bien que Ubisoft ait connu un succès considérable, l'industrie du jeu
-          vidéo est en constante évolution et confrontée à divers défis. Les
-          controverses liées à la culture d'entreprise et à la gestion ont fait
-          surface ces dernières années, obligeant Ubisoft à revoir ses pratiques
-          internes. De plus, la concurrence féroce et l'évolution des modèles
-          économiques, tels que les services d'abonnement, nécessitent une
-          adaptation continue. Cependant, Ubisoft a également des opportunités,
-          notamment l'expansion sur de nouveaux marchés, la création de jeux
-          basés sur des propriétés intellectuelles originales et l'exploration
-          de la réalité augmentée.
-        </p>
-      </div>
-      <img src="../public/image/réalité.jpg">
-    </div>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="chartFile/chart.min.js"></script>
-  <script src="chartFile/chart.js"></script>
-  <script src="../public/javaScript/economie.js"></script>
-
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../public/javaScript/economie.js"></script>
+    <script src="../public/javaScript/economie2.js"></script>
+  </body>
 </html>
