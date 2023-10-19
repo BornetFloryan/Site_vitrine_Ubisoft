@@ -46,8 +46,6 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Findex.html)
 
-<br>
-
 <img src="public/image/W3C/W3C_accueil.png" width="400px" alt="capture ecran sur w3c">
 
 ### Page Histoire
@@ -55,8 +53,6 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2
 **Auteur : KHNAGUI Adam**  
 
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fhistoire.html)
-
-<br>
 
 <img src="public/image/W3C/W3C_histoire.png" width="400px" alt="capture ecran sur w3c">
 
@@ -66,7 +62,6 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
 
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Feconomie.html)
 
-<br>
 <img src="public/image/W3C/W3C_economie.png" width="400px" alt="capture ecran sur w3c">
 
 ### Page Environnement
@@ -75,8 +70,6 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
 
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html)
 
-<br>
-
 <img src="public/image/W3C/W3C_environnement.png" width="400px" alt="capture ecran sur w3c">
 
 ### Page Innovations
@@ -84,8 +77,6 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
 **Auteur : BORNET Floryan**  
 
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html)
-
-<br>
 
 <img src="public/image/W3C/W3C_innovations.png" width="400px" alt="capture ecran sur w3c">
 
