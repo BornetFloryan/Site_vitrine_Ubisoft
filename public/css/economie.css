@@ -9,10 +9,11 @@
 }
 
 :root {
-  --white: #ffffff;
-  --darkBlue: #091225;
-  --black: #000000;
-  --lightBlue: #005ef5;
+  --black: #292523;
+  --darkred: #9b1e1f;
+  --red: #b22420;
+  --lightgrey: #cfd2dc;
+  --white: #f3f5fa;
 }
 
 body {
@@ -21,30 +22,57 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
-nav {
+nav.menu-nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 15px 0;
-  background-color: var(--white);
+  border-bottom: 1px solid #292523;
+  padding: 10px 0;
+  font-size: 20px;
+  background-color: #f3f5fa;
 }
 
-nav svg {
-  fill: var(--black);
+nav.menu-nav svg {
+  fill: #292523;
   width: 93px;
-  height: 30px;
+  height: 33px;
+  text-align: center;
+  margin-top: 5px;
 }
 
-nav a.btn {
-  color: var(--black);
+nav.menu-nav a.btn {
+  color: #292523;
+  font-family: "Eurostile Extended", sans-serif;
   text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  text-align: left;
   cursor: pointer;
-  transition: all 200ms;
+  transition-property: all;
 }
 
-nav a.btn:hover {
-  color: var(--black);
-  transform: scale(1.3);
+nav.menu-nav a.btn:hover {
+  transform: scale(1.2);
+}
+
+nav.menu-nav a.btn_active {
+  color: #292523;
+  font-family: "Eurostile Extended", sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  text-align: left;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .container {
@@ -77,6 +105,18 @@ nav a.btn:hover {
   padding: 10px 20px;
 }
 
+.containerText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  width: 40%;
+  padding: 10px 20px;
+}
+
+
 .content img {
   width: 50%;
 }
@@ -101,7 +141,7 @@ nav a.btn:hover {
 }
 
 .fond {
-  background-color: var(--lightBlue);
+  background-color:  #9b1e1f;
   width: 100%;
   padding: 50px 100px;
 }
@@ -114,4 +154,9 @@ nav a.btn:hover {
   background-color: white;
   padding: 20px 50px;
   border-radius: 20px;
+}
+
+.containerCanva{
+  height: 60% ;
+  padding-right: 0% !;
 }
