@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  background-color: #f3f5fa;
+  color: #292523;
+  background-color: #292523;
 }
 
 nav.menu-nav {
@@ -72,6 +73,7 @@ nav.menu-nav a.btn_active {
 
 .parallax {
   height: 100vh;
+  position: relative;
 }
 
 .parallax h1 {
@@ -79,22 +81,21 @@ nav.menu-nav a.btn_active {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #f3f5fa;
+  color: #cfd2dc;
   font-family: "Eurostile Extended", sans-serif;
   font-size: 5em;
   margin: 5px;
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  overflow: hidden;
 }
 
 #background-video {
   height: 100vh;
-  width: calc(100vw - 15px);
-  position: absolute;
+  width: 100vw;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
   object-fit: cover;
+  opacity: 0.3;
 }
 
 .containerChev {
@@ -108,7 +109,7 @@ nav.menu-nav a.btn_active {
 
 .containerChev a {
   font-size: 20px;
-  color: #f3f5fa;
+  color: #cfd2dc;
 }
 
 .containerChev .chevron {
@@ -117,8 +118,7 @@ nav.menu-nav a.btn_active {
   animation: moveUpDown 1s ease-in-out infinite;
 }
 
-.containerChev .chevron::before,
-.containerChev .chevron::after {
+.containerChev .chevron::before, .containerChev .chevron::after {
   content: "";
   position: absolute;
   top: 10px;
@@ -139,7 +139,6 @@ nav.menu-nav a.btn_active {
 
 
 @keyframes moveUpDown {
-
   0%,
   100% {
     transform: translateY(0);
@@ -158,15 +157,12 @@ nav.menu-nav a.btn_active {
   gap: 40px;
   margin: 0 10vw;
   border-radius: 5px;
-
 }
 
 .container h1 {
   color: #f3f5fa;
   font-family: "Eurostile Extended", sans-serif;
   font-size: 5em;
-  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  overflow: hidden;
 }
 
 .item {
@@ -175,10 +171,9 @@ nav.menu-nav a.btn_active {
   align-items: center;
   padding: 10px;
   border-radius: 10px;
-  background-color: #f3f5fa;
+  border: 3px solid #9b1e1f;
+  background-color: #cfd2dc;
   font-family: "Eurostile Extended", sans-serif;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  overflow: hidden;
 }
 
 .item div {
@@ -194,13 +189,6 @@ nav.menu-nav a.btn_active {
 .item div h2 {
   font-weight: bold;
   font-size: 20px;
-  color: #292523;
-}
-
-.item p {
-    align-items: center;
-    font-family: 'Eurostile Extended', sans-serif;
-    color: #292523;
 }
 
 .item img {
@@ -209,6 +197,5 @@ nav.menu-nav a.btn_active {
 }
 
 footer p {
-    font-family: 'Eurostile Extended', sans-serif;
-    color: #cfd2dc;
+  color: white;
 }

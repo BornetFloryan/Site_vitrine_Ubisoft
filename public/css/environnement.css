@@ -1,21 +1,20 @@
 #background-video {
   height: 100vh;
-  width: calc(100vw - 17px);
+  width: calc(100vw - 15px);
+  object-fit: cover;
   position: absolute;
-  object-fit: cover;  
   left: 0;
-  right: 0;
   top: 0;
-  bottom: 0;
   z-index: -1;
+  opacity: 0.8;
 }
+
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: calc(100vh - 66px);
-  color: green;
 }
 
 .title h1 {
@@ -33,14 +32,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 20vh;
+  gap: 50px;
+  margin: 50px 10vw;
 }
 
 .item {
   display: flex;
   background-color: #cfd2dc;
-  margin-top: 70px;
-  margin-bottom: 210px;
   border-radius: 10px;
   align-items: center;
   height: inherit;
@@ -49,8 +47,8 @@
 .item div {
   display: flex;
   flex-direction: column;
-  width: 60%; 
-padding: 5px 20px;
+  width: 60%;
+  padding: 5px 20px;
 }
 
 .item img {
