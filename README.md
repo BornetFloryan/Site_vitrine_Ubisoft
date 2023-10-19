@@ -44,17 +44,11 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur : IMMER Alex**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Findex.html)
 
+<br>
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
-
-ou 
-
-<img src="public/image/W3C/W3C_accueil.png" style="width=400px" alt="capture ecran sur w3c">
-
-
-<!--  style="width=400px" ne fonctionne pas -->
+<img src="public/image/W3C/W3C_accueil.png" width="400px" alt="capture ecran sur w3c">
 
 ### Page Histoire
 
@@ -63,6 +57,7 @@ ou
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fhistoire.html)
 
 <br>
+
 <img src="public/image/W3C/W3C_histoire.png" width="400px" alt="capture ecran sur w3c">
 
 ### Page Economie
