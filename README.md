@@ -67,16 +67,17 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
 
 <br>
 
-<img src="public/image/W3C_corentin" width="400px" alt="capture ecran sur w3c">
+<img src="public/image/W3C_corentin.png" width="400px" alt="capture ecran sur w3c">
 
 ### Page Innovations
 
 **Auteur : BORNET Floryan**  
 
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur w3c">
+
+<img src="public/image/W3C_floryan.png" width="400px" alt="capture ecran sur w3c">
 
 
 
