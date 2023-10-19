@@ -86,7 +86,27 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
 
 ## Répartition du travail
 
+### Création et réalisation du ReadMe
+- IMMER Alex
+- BORNET Floryan
+
+### Questionnaire
+#### Questionnaire n°1
+- BRENDLE Corentin
+- IMMER Alex
+- KHNAGUI Adam
+- CHAMBON Quentin
+- BORNET Floryan
+
+#### Questionnaire n°2
+- BRENDLE Corentin
+- IMMER Alex
+- KHNAGUI Adam
+- CHAMBON Quentin
+- BORNET Floryan
+
 ### Planification - Diagramme de GANTT
+#### Planning prévisionnel :
 
 - KHNAGUI Adam
 - CHAMBON Quentin
@@ -106,6 +126,10 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
 - IMMER Alex
 - KHNAGUI Adam
 - CHAMBON Quentin
+- BORNET Floryan
+
+### Zoning et Wireframe
+- BRENDLE Corentin
 - BORNET Floryan
 
 ### Développement site
