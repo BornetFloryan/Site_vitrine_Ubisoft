@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito&display=swap%22");
-@import url("https://fonts.cdnfonts.com/css/eurostile-extended");
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 :root {
   --white: #ffffff;
@@ -10,11 +10,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  color: #f3f5fa;
-  background-color: #f3f5fa;
 }
 
 nav.menu-nav {
@@ -37,7 +32,7 @@ nav.menu-nav svg {
 
 nav.menu-nav a.btn {
   color: #292523;
-  font-family: "Eurostile Extended", sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   display: inline-flex;
   justify-content: center;
@@ -46,8 +41,6 @@ nav.menu-nav a.btn {
   align-items: center;
   text-align: left;
   cursor: pointer;
-  transition-property: all;
-  transition-duration: 0.3s;
 }
 
 nav.menu-nav a.btn:hover {
@@ -56,7 +49,7 @@ nav.menu-nav a.btn:hover {
 
 nav.menu-nav a.btn_active {
   color: #292523;
-  font-family: "Eurostile Extended", sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   display: inline-flex;
   justify-content: center;
@@ -80,8 +73,8 @@ nav.menu-nav a.btn_active {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #cfd2dc;
-  font-family: "Eurostile Extended", sans-serif;
+  color: #f3f5fa;
+  font-family: 'Nunito', sans-serif;
   font-size: 5em;
   margin: 5px;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -109,7 +102,7 @@ nav.menu-nav a.btn_active {
 
 .containerChev a {
   font-size: 20px;
-  color: #cfd2dc;
+  color: #f3f5fa;
 }
 
 .containerChev .chevron {
@@ -162,8 +155,8 @@ nav.menu-nav a.btn_active {
 }
 
 .container h1 {
-  color: #f3f5fa;
-  font-family: "Eurostile Extended", sans-serif;
+  color: #292523;
+  font-family: 'Nunito', sans-serif;, sans-serif;
   font-size: 5em;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   overflow: hidden;
@@ -175,9 +168,10 @@ nav.menu-nav a.btn_active {
   align-items: center;
   padding: 10px;
   border-radius: 10px;
-  border: 3px solid #9b1e1f;
-  background-color: #cfd2dc;
-  font-family: "Eurostile Extended", sans-serif;
+  background-color: #f3f5fa;
+  font-family: 'Nunito', sans-serif;, sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: hidden;
 }
 
 .item div {
