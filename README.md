@@ -2,7 +2,15 @@
 
 ## URL du site   
 
-[Site d'information sur l'entreprise Ubisoft](https://wikiut.github.io/SAE/)
+GitHub : [Site d'information sur l'entreprise Ubisoft - GitHub](https://wikiut.github.io/SAE/)
+GitLab : [Site d'information sur l'entreprise Ubisoft - GitLab](https://sae-wikiut-3e5bc7960b9883920504a22892effeddd24963affb44c76222ac.gitlab.io/)
+BitBucket : [Site d'information sur l'entreprise Ubisoft - BitBucket](https://wikiut.bitbucket.io/)
+
+## Liens d'accès aux différents projets
+
+GitHub : [Projet - GitHub](https://github.com/WikIUT/SAE)
+GitLab : [Projet - GitLab](https://gitlab.com/WikIUT/SAE)
+BitBucket : [Projet - BitBucket](https://bitbucket.org/wikiut/wikiut.bitbucket.io/)
 
 ## Membres du groupe 4 :
 Etudiant 1 (référent) : [Adam Khnagui](mailto:adam.khnagui@edu.univ-fcomte.fr?subject=SAE_1_05_06)
