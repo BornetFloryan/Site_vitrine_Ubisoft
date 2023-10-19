@@ -1,3 +1,5 @@
+console.log("créé par : BORNET Floryan");
+
 AOS.init();
 
 var chevronContainer = document.querySelector(".chevron");
