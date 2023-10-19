@@ -45,7 +45,7 @@ ou
 
 **Auteur : KHNAGUI Adam**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fhistoire.html))
+Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fhistoire.html)
 
 <br>
 <img src="public/image/W3C/W3C_histoire.png" width="400px" alt="capture ecran sur w3c">
@@ -54,7 +54,7 @@ Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : CHAMBON Quentin**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Feconomie.html))
+Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Feconomie.html)
 
 <br>
 <img src="public/image/W3C/W3C_economie.png" width="400px" alt="capture ecran sur w3c">
@@ -63,7 +63,7 @@ Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?showsource=yes&sh
 
 **Auteur : BRENDLE Corentin**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html))
+Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Fenvironnement.html)
 
 <br>
 
@@ -73,7 +73,7 @@ Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2
 
 **Auteur : BORNET Floryan**  
 
-Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html))
+Verification W3C : [Détail ICI]([https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwikiut.github.io%2FSAE%2Ftemplate%2Finnovation.html)
 
 <br>
 
