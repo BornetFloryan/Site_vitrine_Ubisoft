@@ -34,7 +34,7 @@ Les catégories sont composées de l'histoire d'Ubisoft, de son économie, de so
 
 ## Choix de conception  
 
-Pour la conception du site, nous nous sommes grandement inspirés du site officiel d'Ubisoft (disponible [ici](https://www.ubisoft.com/fr-fr/)) et du site d'un de ses principaux concurrents [Activision Blizzard](https://www.activisionblizzard.com/). Nous avons pris comme référence la charte d'Activision Blizzard pour les listes avec une image à côté d'un texte (disponible [ici](https://careers.activisionblizzard.com/)) et pour le système de 'carousel' nous nous sommes inspirés du site d'Ubisoft notamment de la page d'accueil (disponible [ici](https://www.ubisoft.com/fr-fr/)).    
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel d'([Ubisoft ](https://www.ubisoft.com/fr-fr/)) et du site d'un de ses principaux concurrents [Activision Blizzard](https://www.activisionblizzard.com/). Nous avons pris comme référence la charte d'Activision Blizzard pour les listes avec une image à côté d'un texte (disponible [ici](https://careers.activisionblizzard.com/)) et pour le système de 'carousel' nous nous sommes inspirés du site d'Ubisoft notamment de la page d'accueil (disponible [ici](https://www.ubisoft.com/fr-fr/)).    
 
 
 
