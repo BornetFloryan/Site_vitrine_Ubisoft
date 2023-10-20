@@ -92,8 +92,6 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2F
 #### Questionnaire n°1
 - BRENDLE Corentin
 - IMMER Alex
-- KHNAGUI Adam
-- CHAMBON Quentin
 - BORNET Floryan
 
 #### Questionnaire n°2
