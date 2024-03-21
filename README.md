@@ -2,14 +2,14 @@
 
 ## URL du site   
 
-GitHub : [Site d'information sur l'entreprise Ubisoft - GitHub](https://wikiut.github.io/SAE/)
-<br>
 GitLab : [Site d'information sur l'entreprise Ubisoft - GitLab](https://sae-wikiut-3e5bc7960b9883920504a22892effeddd24963affb44c76222ac.gitlab.io/)
 <br>
 BitBucket : [Site d'information sur l'entreprise Ubisoft - BitBucket](https://wikiut.bitbucket.io/)
 
 ## Liens d'accès aux différents URL du projet
 
+GitHub : [Projet - GitHub](https://github.com/WikIUT/SAE)
+<br>
 GitLab : [Projet - GitLab](https://gitlab.com/WikIUT/SAE)
 <br>
 BitBucket : [Projet - BitBucket](https://bitbucket.org/wikiut/wikiut.bitbucket.io/)
