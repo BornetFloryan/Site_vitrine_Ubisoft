@@ -1,7 +1,8 @@
 # Site Vitrine Ubisoft  
 
 ## URL du site   
-
+GitHub : [Site d'information sur l'entreprise Ubisoft - GitHub](https://bornetfloryan.github.io/Site_vitrine_Ubisoft/).
+<br>
 GitLab : [Site d'information sur l'entreprise Ubisoft - GitLab](https://sae-wikiut-3e5bc7960b9883920504a22892effeddd24963affb44c76222ac.gitlab.io/)
 <br>
 BitBucket : [Site d'information sur l'entreprise Ubisoft - BitBucket](https://wikiut.bitbucket.io/)
