@@ -10,8 +10,6 @@ BitBucket : [Site d'information sur l'entreprise Ubisoft - BitBucket](https://wi
 
 ## Liens d'accès aux différents URL du projet
 
-GitHub : [Projet - GitHub](https://github.com/WikIUT/SAE)
-<br>
 GitLab : [Projet - GitLab](https://gitlab.com/WikIUT/SAE)
 <br>
 BitBucket : [Projet - BitBucket](https://bitbucket.org/wikiut/wikiut.bitbucket.io/)
